@@ -4,21 +4,6 @@
 如何寫Python文件
 ****************
 
-| `如何寫Python文件 <#ha4453f335a47156e62516a9564b36>`_
-|     `前言 <#h1634483c7822441972316c7301545>`_
-|     `註解 <#h1634483c7822441972316c7301545>`_
-|     `標注（Markups） <#h4b4065777285b5e5d6a11592c71525f>`_
-|         `標注格式 <#h174fb648377959437b5c1f697c1c40>`_
-|         `標注意義 <#h174fb648377959437b5c1f697c1c40>`_
-|         `文件產生器 <#h572187820253c7294643631303029>`_
-|     `如何寫文件 <#h572187820253c7294643631303029>`_
-|     `RTD and Github <#h76f1d1a949307d363741501d2b5c69>`_
-|     `reStructuredText <#ha50657a67374f257533a67c68622>`_
-|         `練習題 <#hd1b83d48586e1b393a624e28544946>`_
-|         `習題解答 <#h174fb648377959437b5c1f697c1c40>`_
-|     `GGeditor <#h28105e656d4d48041184d771d3b4a1a>`_
-|     `總結 <#h1634483c7822441972316c7301545>`_
-
 本文說明寫Python程式碼作系統開發時，如何完成一個\ |LINK1|\ 網站。本文預設的讀者是軟體工程師、研發部秘書、產品經理等與程式碼相關的工作者。本文討論與程式碼及其應用系統之文件的格式、製作流程、工具的問題，不討論系統文件內容該有哪些段落、該如何管理與審查、該撰寫哪些條目、該怎麼聲明版權，也不是討論文件內容的措詞、風格、引用格式等等內容的問題。
 
 .. _h1634483c7822441972316c7301545:
@@ -251,6 +236,19 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 \ |IMG7|\ 
 
 
+.. Important:: 
+
+    為什麼要用Google Docs寫文件？
+    
+    #. 如果你要寫英文文件，Google Docs有拼字檢查，還有作英文Proof-Reading的Add-on可以使用，資源豐富。相對於只能寫Markup的Gitbook，使用Google Docs寫文件可以寫的更容易。
+    #. 如果你使用GGeditor，不需要學習Markup語法，就可以輕易寫文件，立刻上手。
+
+
+.. admonition:: 文件沿革
+
+    Dec 10,  2016. Initial release
+
+
 .. admonition:: Document History
 
     Dec 10,  2016. Initial release
@@ -350,14 +348,14 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 
 .. rubric:: Footnotes
 
-.. [#f1]  有些編譯器也利用註解標注變數型別進行效能優化。
-.. [#f2]  reStructuredText也可以用HTML，但不是「直接使用」。
-.. [#f3]  因為這種情況而有了Commondown
-.. [#f4]  AutoJs -  https://github.com/lunant/sphinxcontrib-autojs
-.. [#f5]  sphinxcontrib-napoleon - https://pypi.python.org/pypi/sphinxcontrib-napoleon
-.. [#f6]  這句話有語病。萬不得已的情況下，當然也可以作markup格式之間的轉換。
-.. [#f7]  不說sphinx最好是怕阻礙了其他頗為創新的方式，詳見 http://stackoverflow.com/questions/1125970/python-documentation-generator
-.. [#f8]  Hosting的部分主要是由佛心來的Rockspace買單。
+.. [#f1]  (empty)
+.. [#f2]  (empty)
+.. [#f3]  (empty)
+.. [#f4]  (empty)
+.. [#f5]  (empty)
+.. [#f6]  (empty)
+.. [#f7]  (empty)
+.. [#f8]  (empty)
 
 .. |IMG1| image:: static/how2pydocs_1.png
    :height: 421 px
