@@ -357,7 +357,7 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 .. [#f5]  sphinxcontrib-napoleon - https://pypi.python.org/pypi/sphinxcontrib-napoleon
 .. [#f6]  這句話有語病。萬不得已的情況下，當然也可以作markup格式之間的轉換。
 .. [#f7]  不說sphinx最好是怕阻礙了其他頗為創新的方式，詳見 http://stackoverflow.com/questions/1125970/python-documentation-generator
-.. [#f8]  Hosting的部分主要是由佛心來的Openstack買單。
+.. [#f8]  Hosting的部分主要是由佛心來的Rockspace買單。
 
 .. |IMG1| image:: static/how2pydocs_1.png
    :height: 421 px
