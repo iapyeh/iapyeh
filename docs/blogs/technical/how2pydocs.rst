@@ -359,30 +359,30 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 .. [#f7]  不說sphinx最好是怕阻礙了其他頗為創新的方式，詳見 http://stackoverflow.com/questions/1125970/python-documentation-generator
 .. [#f8]  Hosting的部分主要是由佛心來的Openstack買單。
 
-.. |IMG1| image:: static/如何寫Python文件_1.png
+.. |IMG1| image:: static/how2pydocs_1.png
    :height: 421 px
    :width: 588 px
 
-.. |IMG2| image:: static/如何寫Python文件_2.png
+.. |IMG2| image:: static/how2pydocs_2.png
    :height: 348 px
    :width: 585 px
 
-.. |IMG3| image:: static/如何寫Python文件_3.png
+.. |IMG3| image:: static/how2pydocs_3.png
    :height: 293 px
    :width: 521 px
 
-.. |IMG4| image:: static/如何寫Python文件_4.png
+.. |IMG4| image:: static/how2pydocs_4.png
    :height: 273 px
    :width: 564 px
 
-.. |IMG5| image:: static/如何寫Python文件_5.png
+.. |IMG5| image:: static/how2pydocs_5.png
    :height: 88 px
    :width: 681 px
 
-.. |IMG6| image:: static/如何寫Python文件_6.png
+.. |IMG6| image:: static/how2pydocs_6.png
    :height: 40 px
    :width: 53 px
 
-.. |IMG7| image:: static/如何寫Python文件_7.png
+.. |IMG7| image:: static/how2pydocs_7.png
    :height: 121 px
    :width: 697 px
