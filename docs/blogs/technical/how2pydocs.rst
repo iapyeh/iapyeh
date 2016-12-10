@@ -240,11 +240,10 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 
     為什麼要用Google Docs寫文件？
     
-    #. 如果你要寫英文文件，Google Docs有拼字檢查，還有作英文Proof-Reading的Add-on可以使用，資源豐富。相對於只能寫Markup的Gitbook，使用Google Docs寫文件可以寫的更容易。
-    #. 如果你使用GGeditor，不需要學習Markup語法，就可以輕易寫文件，立刻上手。
+    #. 如果你要寫英文文件，Google Docs有拼字檢查，還有作英文Proof-Reading的Add-on可以使用，資源豐富。反觀Gitbook只能寫Markup，而Markup無法作拼字跟文法檢查，所以使用Google Docs寫文件會寫得比較好。
+    #. 如果你使用GGeditor，不需要學習Markup語法，就可以立刻上手。
 
-
-.. admonition:: 文件沿革
+文件沿革：
 
     Dec 10,  2016. Initial release
 
