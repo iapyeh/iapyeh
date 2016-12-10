@@ -248,11 +248,6 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 
     Dec 10,  2016. Initial release
 
-
-.. admonition:: Document History
-
-    Dec 10,  2016. Initial release
-
 附註：這篇在RTD上的長篇大論，當然不是用reStructuredText雕刻出來的，而是用GGeditor轉換的，\ |LINK22|\ 。
 
 
