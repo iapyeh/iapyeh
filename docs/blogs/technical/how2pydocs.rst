@@ -96,9 +96,11 @@ Python慣例使用reStructruedText作為標注格式。在網路上，可能比�
 
 因為，系統文件不是只有API文件。
 
-你可以參考\ |LINK7|\ 網站，它需要一個「首頁」說明GGeditor是什麼，有什麼特性，這份文件不是API文件，還有其他Tutorial（導引）, User Guide（使用手冊）, How To（如何）, Examples（範例）等等都不是API文件，然而這些也都是系統文件。GGeditor只是一個很小的專案，大型開發案文件更是多如牛毛，而且經常需要改版再改版，不只文字跟圖案，甚至還有影音。程式設計師不只是寫程式，也不只是寫API文件，還要負責撰寫這些系統文件（還好目前還不至於負責拍影片，頂多是螢幕錄影），在人力充沛的開發團隊也許會有PM或秘書負責，然而不論是誰負責，系統文件不只是API文件這個事實不變。
+還有「專案文件」，這個概念我們很少談，少到連名字都還沒固定稱法，暫時稱為專案文件，凡是非API的文件，不是用來說明你的程式有哪些模組、有哪些函數呼叫的，都屬於這一類。
 
-這些非API 文件文件該怎麼寫沒有強制規定或國際標準可以遵循，既然最終是用網頁呈現，你直接寫HTML也行。然而，慢慢地你會發現，只有HTML是不夠的，還要有PDF才行，不然要把整份文件列印下來還挺麻煩的。到頭來終究會同意：如果可以只寫一份，然後由那一份去產生其他的格式，是一種比較好的作法。這時候，Sphinx跟reStructuredText又出場了，你用reStructruedText的格式寫一份，然後由Sphinx轉成HTML、PDF、LaTex等各種格式。如此一來，不論是API文件還是非API文件，都用reStructruedText的格式寫註解，都用Sphinx作轉換，寫系統文件只要這一套組合就可以完成，這是比較經濟實惠的作法。
+舉例而言，\ |LINK7|\ 網站，有一個「首頁」說明這個專案（GGeditor）是什麼、有什麼特性，還有其他為了讓使用者了解如何使用這個工具的Tutorial（導引）, User Guide（使用手冊）, How To（如何）, Examples（範例）等等都不是API文件而是專案文件。GGeditor只是一個小工具，大型系統的專案文件是多如牛毛，而且經常需要改版再改版，不只文字跟圖案，甚至還有影音。程式設計師不只是寫程式，也不只是寫API文件，還要負責撰寫這些專案文件，在人力充沛的開發團隊也許會有PM或秘書負責，然而不論是誰負責，系統文件包括專案跟API文件這兩種是不變的。
+
+這些專案文件該怎麼寫沒有強制規定或國際標準可以遵循，既然最終是用網頁呈現，你直接寫HTML也行。然而，慢慢地你會發現，只有HTML是不夠的，還要有PDF才行，不然要把整份文件列印下來還挺麻煩的。到頭來終究會同意：如果可以只寫一份，然後由那一份去產生其他的格式，是一種比較好的作法。這時候，Sphinx跟reStructuredText又出場了，你用reStructruedText的格式寫一份，然後由Sphinx轉成HTML、PDF、LaTex等各種格式。如此一來，不論是API文件還是專案文件，都用reStructruedText的格式寫註解，都用Sphinx作轉換，寫系統文件只要這一套組合就可以完成，這是比較經濟實惠的作法。
 
 以上所談論的觀念可以總結為以下的圖形表示。
 
@@ -138,11 +140,11 @@ Sphinx只是一個應用程式，要有人學習如何使用，還要安裝、�
 
 第一、API文件的部分，commit原始程式碼。
 
-第二、非API文件的部分，commit reStructuredText格式的文字檔。
+第二、專案文件的部分，commit reStructuredText格式的文字檔。
 
 關於第一點API文件的部分，因為Sphinx是從原始程式檔案中產生文件，你要commit到Github的程式檔。那些程式碼可以自由選擇遵守Google或NumPy制定的註解風格，這兩者風格Sphinx都支持。你可以不提供程式碼內關於運算邏輯的部分，只提供程式碼的註解部分，換言之，只提供interface性質的檔案是可以的。值得一提的是，如果要讓RTD也替你產生API文件，你要在設定檔(conf.py)中宣告，細節可以參考GGeditor提供的\ |LINK9|\ 。
 
-關於第二點，非API文件，你只需寫成reStructuredText的格式就行了，是的「只」需要寫成reStructuredText的格式，真的「只」需要寫成reStructuredText的格式！
+關於專案文件，你只需寫成reStructuredText的格式就行了，是的「只」需要寫成reStructuredText的格式，真的「只」需要寫成reStructuredText的格式！
 
 .. _ha50657a67374f257533a67c68622:
 
@@ -211,20 +213,25 @@ reStructuredText
 GGeditor
 ========
 
-如果你認真寫過練習題，相信你已經透徹了解用reStructuredText寫文件那種痛徹心扉的手感，關於哪一種文字編輯器的問題，答案會跟我一樣「以上皆非」。既然你能把這篇長文看到這裡，相信你真心想把文件寫好。認真的人有福了！介紹你一個工具，可以節省至少一個月的時間，一個不必懂reStructuredText就可以完成系統文件的工具，GGeditor。
+如果你認真寫過練習題，相信你已經透徹了解用reStructuredText寫文件那種彷彿每根手指骨折裹著石膏的沈重感，那麼哪一種文字編輯器比較好的答案就當然是「以上皆非」。既然你能把這篇長文看到這裡，相信你真心想把文件寫好。認真的人最有福氣！介紹你一個工具，可以節省至少一個月的時間，一個不必懂reStructuredText就可以完成系統文件的工具，GGeditor。
 
 GGeditor是Google Docs的Add-on，它從Google Docs文件產生reStructuredText格式的檔案，你在Google Docs裡面寫文章、寫條列項目、畫表格、貼圖、註腳，然後GGeditor把它轉成reStructuredText。你可以完全不懂reStructuredText。
 
 GGeditor不只是一個reStructuredText的轉換器，還能把產生的reStructuredText檔案Commit到Github。然後RTD就會自動更新你的文件網站。
 
-既然是在Google Docs上，Google Docs的協同作業、多人同時編輯、統計圖等功能也都可以利用。Google Docs還有很多Add-on可以用，例如英文的proof-reading。因為不需要再用reStructuredText標注，寫作的時候不會產生好不容易寫完懶得再修改的問題，可以鼓勵工程師邊做邊在Google Docs上寫筆記，最後只要把筆記修改成文件，用GGeditor Commit到Github就上線了。
+用Google Docs寫文件有很多好處：
+
+#. Google Docs的協同作業、多人同時編輯、統計圖等功能也都可以利用。
+#. Google Docs有很多Add-on可以用，如果你要寫英文文件，Google Docs有拼字檢查，還有作英文Proof-Reading的Add-on可以使用，資源豐富。反觀Gitbook只能寫Markup，而Markup無法作拼字跟文法檢查，所以使用Google Docs寫文件會寫得比較好。
+#. 不需要學習Markup語法，就可以立刻上手。寫作的時候不會產生好不容易寫完懶得再修改的問題，可以鼓勵工程師邊做邊寫。
+
+GGeditor還有一個好處是它可以同時用來產生專案文件與API文件。由於API的說明要放在程式註解中，產生API文件的方式並不是用Google Docs編輯程式碼，而是利用GGeditor的產生reStructruedText後把產生的內容複製到程式碼中貼上。這聽起來有點麻煩，但操作起來熟能生巧，如果你有一邊寫程式一邊寫文件的好習慣，Google Docs本來就已經開好，把每一個函式說明各自放在一個1x1的Google Docs的表格（Table）中，當你把游標放在表格裡面時，GGeditor只轉換該表格的內容而且轉成適合內嵌於註解中的Inline格式，此時你再用單鍵複製到剪貼簿上，貼回IDE中的程式碼就可以。複製到剪貼簿時GGeditor可以替每一行加上# 等程式碼註解的慣用符號(prefix)。
+
+\ |IMG7|\ 
+
+除了放在表格裡面之外，你也可以把要轉換的段落選擇起來，當有選擇區存在時，就跟把游標放在Table裡面一樣，GGeditor只會轉選擇區的部分。
 
 這是\ |LINK18|\ ，以及\ |LINK19|\ 。如果你是RTD的初學者，文件網站上有How To文件引導你\ |LINK20|\ ，讓你的RTD文件網站跟Github可以連動。文件網站上也有How To文件，引導你\ |LINK21|\ ，讓你只要把程式碼Commit到Github，你在RTD的API文件也就自動完成更新。
-
-
-.. Hint:: 
-
-    如果你想要在API文件中使用更豐富的內容，可以直接在程式碼註解中使用reStructuredText標注。你可以在Google Docs中撰寫內容，然後利用GGeditor轉換選擇區(Convert Selection)的功能，把轉成的reStructuredText複製後貼在程式碼的註解裡。
 
 .. _h1634483c7822441972316c7301545:
 
@@ -233,19 +240,7 @@ GGeditor不只是一個reStructuredText的轉換器，還能把產生的reStruct
 
 Python的文件是用下圖所示的方法完成的。這張圖把reStructuredText，Sphinx都隱藏起來了，因為透過這一個程序，你不需要知道底層的技術細節，就可以完成你的系統文件。
 
-\ |IMG7|\ 
-
-
-.. Important:: 
-
-    為什麼要用Google Docs寫文件？
-    
-    #. 如果你要寫英文文件，Google Docs有拼字檢查，還有作英文Proof-Reading的Add-on可以使用，資源豐富。反觀Gitbook只能寫Markup，而Markup無法作拼字跟文法檢查，所以使用Google Docs寫文件會寫得比較好。
-    #. 如果你使用GGeditor，不需要學習Markup語法，就可以立刻上手。
-
-文件沿革：
-
-    Dec 10,  2016. Initial release
+\ |IMG8|\ 
 
 附註：這篇在RTD上的長篇大論，當然不是用reStructuredText雕刻出來的，而是用GGeditor轉換的，\ |LINK22|\ 。
 
@@ -360,12 +355,12 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
    :width: 585 px
 
 .. |IMG3| image:: static/how2pydocs_3.png
-   :height: 293 px
-   :width: 521 px
+   :height: 305 px
+   :width: 545 px
 
 .. |IMG4| image:: static/how2pydocs_4.png
-   :height: 273 px
-   :width: 564 px
+   :height: 229 px
+   :width: 473 px
 
 .. |IMG5| image:: static/how2pydocs_5.png
    :height: 88 px
@@ -376,5 +371,9 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
    :width: 53 px
 
 .. |IMG7| image:: static/how2pydocs_7.png
-   :height: 121 px
+   :height: 277 px
+   :width: 697 px
+
+.. |IMG8| image:: static/how2pydocs_8.png
+   :height: 150 px
    :width: 697 px
