@@ -83,7 +83,7 @@ Python慣例使用reStructruedText作為標注格式。在網路上，可能比�
 這是一個在javascript程式碼當中，為JSDocs文件產生器而標注的註解。函式的參數是用＠param標注，而上面的Python案例中則使用Args:逐行標記。這個案例取自\ |LINK6|\ 。這種標注的差異並不是Javascript與Python的語言差異，而是這份文件的目的是為了能用JSDoc文件產生器從程式碼產生API文件。換言之，如果你將來預備讓Sphinx替你的javascript產生文件，你也可以在Javascript程式碼當中使用Sphinx可以接受的標注方式，然後由Sphinx產生API文件\ [#F4]_\ 。
 
 
-..  Note:: 
+.. Note:: 
 
     如果把Sphinx處理API文件的過程說的更詳細一點，關於意義標注的風格，並不是由Sphinx的核心功能直接處理的，而是由擴充功能先作前處理，把這些註解內容轉換成reStructuredText相對應的標注，然後再由Sphinx作處理，這種流程設計可以讓Sphinx的核心單純化也更彈性化\ [#F5]_\ 。
 
@@ -109,13 +109,12 @@ Python慣例使用reStructruedText作為標注格式。在網路上，可能比�
 到此，你應該已經了解要寫Python的文件，你必須學會兩件事：
 
 #. reStructuredText的格式要怎麼寫。
-
 #. 如果你負責寫程式的話，還要知道Style Guide的規則是什麼。
 
 如果研發團隊能作做到這兩件事情，剩下的就是Sphinx的事了。
 
 
-..  Tip:: 
+.. Tip:: 
 
     如果你使用IDE作開發，你的IDE可能有協助使用者使用某些特定風格（規格）寫API文件的功能，可以為你省下不少心力。但身為工程師，你需知道IDE提供給你的風格是哪一種，適用於哪一個文件產生器，並讓團隊成員使用相同的風格，避免將來產生轉檔失敗，必須重寫的問題。
 
@@ -133,7 +132,7 @@ Sphinx只是一個應用程式，要有人學習如何使用，還要安裝、�
 \ |IMG4|\ 
 
 
-..  Note:: 
+.. Note:: 
 
     在Github中，檔名以.rst結尾的reStructruedText檔案只能部分性的顯示，所以你在Github看到的.rst檔案內容會有點怪異，讀起來好像很多奇怪的符號，圖形大小也有點不協調。那是正常的現象。
 
@@ -157,13 +156,9 @@ reStructuredText
 本文並不是reStructuredText的教學，在此僅提供以下幾份相關文件給您參考：
 
 * reStructuredText是Docutils專案下發展出來的，\ |LINK10|\ 。
-
 * 如果覺得讀上面的規格很煩，可以看這一份濃縮版 \ |LINK11|\ 。
-
 * A ReStructuredText Primer的\ |LINK12|\ ，你可以看看reStructruedText長什麼樣子。
-
 * 如果上面的濃縮版還是很難讀，這裡還有\ |LINK13|\ 
-
 * 最完整的資訊在\ |LINK14|\ 
 
 .. _hd1b83d48586e1b393a624e28544946:
@@ -227,17 +222,13 @@ GGeditor不只是一個reStructuredText的轉換器，還能把產生的reStruct
 用Google Docs寫文件有很多好處：
 
 #. Google Docs的協同作業、多人同時編輯、統計圖等功能也都可以利用。
-
 #. Google Docs有很多Add-on可以用，如果你要寫英文文件，Google Docs有拼字檢查，還有作英文Proof-Reading的Add-on可以使用，資源豐富。反觀Gitbook只能寫Markup，而Markup無法作拼字跟文法檢查，所以使用Google Docs寫文件會寫得比較好。
-
 #. 不需要學習Markup語法，就可以立刻上手。寫作的時候不會產生好不容易寫完懶得再修改的問題，可以鼓勵工程師邊做邊寫。
 
 GGeditor可以讓你做到：
 
 * 將段落、連結、表格、項目清單、圖形、註腳直接轉成reStructruedText
-
 * 在文件中呈現Admonition，Directive等模擬區塊，不必記憶成reStructruedText語法
-
 * 直接Commit到Github
 
 下圖為GGeditor插入各種Admonition的選取畫面
@@ -266,8 +257,6 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 \ |IMG10|\ 
 
 附註：這篇在RTD上的長篇大論，當然不是用reStructuredText雕刻出來的，而是用GGeditor轉換的，\ |LINK22|\ 。
-
-.. bottom of content
 
 
 .. |LINK1| raw:: html
@@ -348,7 +337,7 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 
 .. |LINK20| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">如何完成RTD要求的Github設定</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html" target="_blank">如何完成RTD要求的Github設定</a>
 
 .. |LINK21| raw:: html
 
@@ -369,7 +358,7 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
 .. [#f5]  sphinxcontrib-napoleon - https://pypi.python.org/pypi/sphinxcontrib-napoleon
 .. [#f6]  這句話有語病。萬不得已的情況下，當然也可以作markup格式之間的轉換。
 .. [#f7]  不說sphinx最好是怕阻礙了其他頗為創新的方式，詳見 http://stackoverflow.com/questions/1125970/python-documentation-generator
-.. [#f8]  Hosting的部分主要是由佛心來的 `Rockspace <https://www.rackspace.com>`__ 買單。
+.. [#f8]  Hosting的部分主要是由佛心來的Rockspace買單。
 
 .. |IMG1| image:: static/how2pydocs_1.png
    :height: 421 px
