@@ -225,9 +225,23 @@ GGeditor不只是一個reStructuredText的轉換器，還能把產生的reStruct
 #. Google Docs有很多Add-on可以用，如果你要寫英文文件，Google Docs有拼字檢查，還有作英文Proof-Reading的Add-on可以使用，資源豐富。反觀Gitbook只能寫Markup，而Markup無法作拼字跟文法檢查，所以使用Google Docs寫文件會寫得比較好。
 #. 不需要學習Markup語法，就可以立刻上手。寫作的時候不會產生好不容易寫完懶得再修改的問題，可以鼓勵工程師邊做邊寫。
 
-GGeditor還有一個好處是它可以同時用來產生專案文件與API文件。由於API的說明要放在程式註解中，產生API文件的方式並不是用Google Docs編輯程式碼，而是利用GGeditor的產生reStructruedText後把產生的內容複製到程式碼中貼上。這聽起來有點麻煩，但操作起來熟能生巧，如果你有一邊寫程式一邊寫文件的好習慣，Google Docs本來就已經開好，把每一個函式說明各自放在一個1x1的Google Docs的表格（Table）中，當你把游標放在表格裡面時，GGeditor只轉換該表格的內容而且轉成適合內嵌於註解中的Inline格式，此時你再用單鍵複製到剪貼簿上，貼回IDE中的程式碼就可以。複製到剪貼簿時GGeditor可以替每一行加上# 等程式碼註解的慣用符號(prefix)。
+GGeditor可以讓你做到：
+
+* 將段落、連結、表格、項目清單、圖形、註腳直接轉成reStructruedText
+* 在文件中呈現Admonition，Directive等模擬區塊，不必記憶成reStructruedText語法
+* 直接Commit到Github
+
+下圖為GGeditor插入各種Admonition的選取畫面
 
 \ |IMG7|\ 
+
+下圖使用GGeditor直接把產生的reStructuredText Commit到Github的操作畫面
+
+\ |IMG8|\ 
+
+GGeditor還有一個好處是它可以同時用來產生專案文件與API文件。由於API的說明要放在程式註解中，產生API文件的方式並不是用Google Docs編輯程式碼，而是利用GGeditor的產生reStructruedText後把產生的內容複製到程式碼中貼上。這聽起來有點麻煩，但操作起來熟能生巧，如果你有一邊寫程式一邊寫文件的好習慣，Google Docs本來就已經開好，把每一個函式說明各自放在一個1x1的Google Docs的表格（Table）中，當你把游標放在表格裡面時，GGeditor只轉換該表格的內容而且轉成適合內嵌於註解中的Inline格式，此時你再用單鍵複製到剪貼簿上，貼回IDE中的程式碼就可以。複製到剪貼簿時GGeditor可以替每一行加上# 等程式碼註解的慣用符號(prefix)。
+
+\ |IMG9|\ 
 
 除了放在表格裡面之外，你也可以把要轉換的段落選擇起來，當有選擇區存在時，就跟把游標放在Table裡面一樣，GGeditor只會轉選擇區的部分。
 
@@ -240,7 +254,7 @@ GGeditor還有一個好處是它可以同時用來產生專案文件與API文件
 
 Python的文件是用下圖所示的方法完成的。這張圖把reStructuredText，Sphinx都隱藏起來了，因為透過這一個程序，你不需要知道底層的技術細節，就可以完成你的系統文件。
 
-\ |IMG8|\ 
+\ |IMG10|\ 
 
 附註：這篇在RTD上的長篇大論，當然不是用reStructuredText雕刻出來的，而是用GGeditor轉換的，\ |LINK22|\ 。
 
@@ -371,9 +385,17 @@ Python的文件是用下圖所示的方法完成的。這張圖把reStructuredTe
    :width: 53 px
 
 .. |IMG7| image:: static/how2pydocs_7.png
+   :height: 316 px
+   :width: 301 px
+
+.. |IMG8| image:: static/how2pydocs_8.png
+   :height: 316 px
+   :width: 509 px
+
+.. |IMG9| image:: static/how2pydocs_9.png
    :height: 277 px
    :width: 697 px
 
-.. |IMG8| image:: static/how2pydocs_8.png
+.. |IMG10| image:: static/how2pydocs_10.png
    :height: 150 px
    :width: 697 px
