@@ -44,7 +44,7 @@ virtualenv test2env
 
 會產生這個錯誤，雖然如此，依然會產生 test2env的目錄，test2env/bin 之下會有 python，但是沒有 pip, easy_install 等程式，而且::
 
-test2env/bin/python -c "import io"
+    test2env/bin/python -c "import io"
 
 會報錯。
 
@@ -56,7 +56,7 @@ test2env/bin/python -c "import io"
 
 執行這命令之後，再試著執行virtualenv建立其他虛擬環境，例如::
 
-virtualenv test3env
+    virtualenv test3env
 
 就會成功。 我是在MacOS Sierra (10.12.2)下測試的，對我有用。我不知道是否對於Windows有用，如果有人在其他OS下有用，歡迎來信告訴我\ |IMG3|\ 。
 
