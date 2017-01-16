@@ -6,12 +6,10 @@ virtualenv 的中文目錄問題
 
 \ |IMG1|\ 如果你跟我一樣使用Python2.7，因為要安裝用virtualenv在中文目錄而發生UnicodeDecodeError的問題，你可以修改virtualenv.py來解決這個問題，virtualenv.py在site-packages下的virtualenv的egg檔案裡面。
 
-有兩個地方要修改：
+.. _h174fb648377959437b5c1f697c1c40:
 
-.. _h1634483c7822441972316c7301545:
-
-修改
-====
+修改方式
+========
 
 在 1390行附近,找到這一行：
 
@@ -27,12 +25,12 @@ virtualenv 的中文目錄問題
 
 也就是說，加入以下這兩個命令在cmd的第三個項目中：
 
-reload(sys);sys.setdefaultencoding("utf-8");
+    reload(sys);sys.setdefaultencoding("utf-8");
 
-.. _h50477b631320183d32712d2f436a4f2:
+.. _he29394a301c5848784936383d797953:
 
-                Symbol not found:
-=================================
+Symbol not found:
+=================
 
 另外一個MacOS的使用者，使用anaconda版本的python時可能會遇到__PyCodecInfo_GetIncrementalDecoder的問題：
 
@@ -40,7 +38,7 @@ reload(sys);sys.setdefaultencoding("utf-8");
 
 假設執行這個命令::
 
-virtualenv test2env
+    virtualenv test2env
 
 會產生這個錯誤，雖然如此，依然會產生 test2env的目錄，test2env/bin 之下會有 python，但是沒有 pip, easy_install 等程式，而且::
 
@@ -48,7 +46,7 @@ virtualenv test2env
 
 會報錯。
 
-這個問題的解決方式(假設 test2env)是建立失敗的目錄。
+這個問題的解決方式(假設 test2env)是複製系統的_io.so到建立失敗的目錄下的lib-dynload目錄。
 
 .. code:: 
 
