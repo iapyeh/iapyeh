@@ -58,6 +58,6 @@ reload(sys);sys.setdefaultencoding("utf-8");
 
 .. bottom of content
 
-.. |IMG1| image:: static/Virtualenv_的生UnicodeDecodeError問題_1.png
+.. |IMG1| image:: static/VirtualenvUnicodeDecodeError_1.png
    :height: 88 px
    :width: 697 px
