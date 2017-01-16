@@ -8,10 +8,10 @@ Virtualenv 的中文目錄問題
 
 有兩個地方要修改：
 
-.. _h7e281c315350424ce913c23b17:
+.. _h4b3f7b6b202a5210621312474e116b1e:
 
-一、 
-=====
+修改一 
+=======
 
 在 753行附近, 找到以下這四行：
 
@@ -22,7 +22,7 @@ Virtualenv 的中文目錄問題
             cmd, stderr=subprocess.STDOUT,
             stdin=None if stdin is None else subprocess.PIPE,
 
-(1-fix) 修改方式是加入兩行在try之前，變成：
+修改方式是加入兩行在try之前，變成：
 
 .. code:: 
 
@@ -32,18 +32,18 @@ Virtualenv 的中文目錄問題
         proc = subprocess.Popen(
         ...
 
-.. _h1634483c7822441972316c7301545:
+.. _hd1b83d48586e1b393a624e28544946:
 
-二、
-====
+修改二
+======
 
-在 1390行附近,有這一行：
+在 1390行附近,找到這一行：
 
 .. code:: 
 
     cmd = [py_executable, '-c', 'import sys;out=sys.stdout;',
 
-(2-fix) 修改成：
+修改成：
 
 .. code:: 
 
@@ -53,7 +53,7 @@ Virtualenv 的中文目錄問題
 
 reload(sys);sys.setdefaultencoding("utf-8");
 
-我是在MacOS Sierra (10.12.2)下測試的，對我有用。我不知道是否對於Windows有用，如果有人在其他OS下有用，歡迎告訴我。
+我是在MacOS Sierra (10.12.2)下測試的，對我有用。我不知道是否對於Windows有用，如果有人在其他OS下有用，歡迎來信告訴我\ |IMG2|\ 。
 
 
 .. bottom of content
@@ -61,3 +61,7 @@ reload(sys);sys.setdefaultencoding("utf-8");
 .. |IMG1| image:: static/VirtualenvUnicodeDecodeError_1.png
    :height: 88 px
    :width: 697 px
+
+.. |IMG2| image:: static/VirtualenvUnicodeDecodeError_2.png
+   :height: 20 px
+   :width: 141 px
