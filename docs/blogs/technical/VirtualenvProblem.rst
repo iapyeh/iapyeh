@@ -63,14 +63,14 @@ virtualenv test3env
 
 .. bottom of content
 
-.. |IMG1| image:: static/Virtualenv_的生UnicodeDecodeError問題_1.png
+.. |IMG1| image:: static/VirtualenvProblem_1.png
    :height: 88 px
    :width: 697 px
 
-.. |IMG2| image:: static/Virtualenv_的生UnicodeDecodeError問題_2.png
+.. |IMG2| image:: static/VirtualenvProblem_2.png
    :height: 28 px
    :width: 548 px
 
-.. |IMG3| image:: static/Virtualenv_的生UnicodeDecodeError問題_3.png
+.. |IMG3| image:: static/VirtualenvProblem_3.png
    :height: 20 px
    :width: 141 px
