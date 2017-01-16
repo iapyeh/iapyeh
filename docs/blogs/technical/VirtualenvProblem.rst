@@ -23,7 +23,7 @@ virtualenv 的中文目錄問題
 
     cmd = [py_executable, '-c', 'import sys;out=sys.stdout;reload(sys);sys.setdefaultencoding("utf-8");'
 
-也就是說，加入以下這兩個命令在cmd的第三個項目中：
+也就是說，加入以下這兩個命令在cmd的第三個項目中::
 
     reload(sys);sys.setdefaultencoding("utf-8");
 
