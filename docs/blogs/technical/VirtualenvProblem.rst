@@ -4,9 +4,9 @@
 在中文目錄建立virtualenv 的問題
 *******************************
 
-如果你使用MacOS Sierra (10.12.2)，要有中文的路徑中建立Python2.7 的Virtualenv，有跟我一樣的問題可以參考以下的方式，修改你的環境。
+如果你使用MacOS Sierra (10.12.2)，要在路徑有中文目錄下建立Python2.7 的Virtualenv，有跟我一樣的問題可以參考以下的方式來達成。
 
-可能的問題有三個，你可以依序按照本文的說明逐步解決：
+可能的問題有三個，其中一個是MacOS新版特有的問題，你可以依序按照本文的說明順序，逐步解決：
 
 .. _h4261216e687d444f783965757f42270:
 
@@ -72,13 +72,13 @@
 問題三：PIP SyntaxError: Non-ASCII character 
 =============================================
 
-如果你在virtualenv中要用pip安裝模組，像是這樣::
+如果你在virtualenv中要用pip安裝模組，像是這樣的命令::
 
     $source pyenv/bin/activate
 
     (pyenv) pip install facebook
 
-遇到SyntaxError的問題。你要修改pip，方法如下::
+會遇到SyntaxError的問題。你要修改pip（請注意，是pip，不是pip.py），方法如下::
 
     #先找出你用的pip的位置
 
@@ -107,6 +107,7 @@
     import sys
     (略）
 
+資料日期：2017年1月17日
 
 .. bottom of content
 
