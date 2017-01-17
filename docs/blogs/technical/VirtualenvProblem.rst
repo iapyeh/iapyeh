@@ -1,15 +1,24 @@
 
-.. _h656466571196d4475805811267d637c:
+.. _h18252a246e166c5e2b455838275d773b:
 
-virtualenv 的中文目錄問題
-*************************
+在中文目錄建立virtualenv 的問題
+*******************************
 
-\ |IMG1|\ 如果你跟我一樣使用Python2.7，因為要安裝用virtualenv在中文目錄而發生UnicodeDecodeError的問題，你可以修改virtualenv.py來解決這個問題，virtualenv.py在site-packages下的virtualenv的egg檔案裡面。
+如果你使用MacOS Sierra (10.12.2)，要有中文的路徑中建立Python2.7 的Virtualenv，有跟我一樣的問題可以參考以下的方式，修改你的環境。
+
+可能的問題有三個，你可以依序按照本文的說明逐步解決：
+
+.. _h4261216e687d444f783965757f42270:
+
+問題一：UnicodeDecodeError
+==========================
+
+\ |IMG1|\ ，因為要安裝用virtualenv在中文目錄而發生UnicodeDecodeError的問題，你可以修改virtualenv.py來解決這個問題，virtualenv.py在site-packages下的virtualenv的egg檔案裡面。
 
 .. _h174fb648377959437b5c1f697c1c40:
 
 修改方式
-========
+--------
 
 在 1390行附近,找到這一行：
 
@@ -27,12 +36,12 @@ virtualenv 的中文目錄問題
 
     reload(sys);sys.setdefaultencoding("utf-8");
 
-.. _he29394a301c5848784936383d797953:
+.. _h52122b212b7f4222654705f10747a38:
 
-Symbol not found:
-=================
+問題二：Symbol not found:
+=========================
 
-另外一個MacOS的使用者，使用anaconda版本的python時可能會遇到__PyCodecInfo_GetIncrementalDecoder的問題：
+另外一個MacOS的使用者，使用anaconda版本的python時可能會遇到__PyCodecInfo_GetIncrementalDecoder的問題，如果沒遇到這問題可以跳過本步驟：
 
 \ |IMG2|\ 
 
@@ -56,7 +65,47 @@ Symbol not found:
 
     virtualenv test3env
 
-就會成功。 我是在MacOS Sierra (10.12.2)下測試的，對我有用。我不知道是否對於Windows有用，如果有人在其他OS下有用，歡迎來信告訴我\ |IMG3|\ 。
+就會成功。
+
+.. _h641d167d29241a7c4e6a2d4353173:
+
+問題三：PIP SyntaxError: Non-ASCII character 
+=============================================
+
+如果你在virtualenv中要用pip安裝模組，像是這樣::
+
+    $source pyenv/bin/activate
+
+    (pyenv) pip install facebook
+
+遇到SyntaxError的問題。你要修改pip，方法如下::
+
+    #先找出你用的pip的位置
+
+    $ which pip
+
+然後編輯這個pip的第一行，例如本來是這樣
+
+.. code-block:: python
+    :linenos:
+
+    #!/Users/you/某個中文目錄/pyenv/bin/python
+    
+    # -*- coding: utf-8 -*-
+    import re
+    import sys
+    (略）
+
+這個Syntax Error是因為第一行有中文字造成的，把第一行改成這樣
+
+.. code-block:: python
+    :linenos:
+
+    #!/usr/bin/env python
+    # -*- coding: utf-8 -*-
+    import re
+    import sys
+    (略）
 
 
 .. bottom of content
@@ -68,7 +117,3 @@ Symbol not found:
 .. |IMG2| image:: static/VirtualenvProblem_2.png
    :height: 28 px
    :width: 548 px
-
-.. |IMG3| image:: static/VirtualenvProblem_3.png
-   :height: 20 px
-   :width: 141 px
