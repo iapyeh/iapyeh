@@ -107,6 +107,8 @@
     import sys
     (略）
 
+註：easy_install也有跟pip相同的問題，按相同的方式處理即可。
+
 資料日期：2017年1月17日
 
 .. bottom of content
