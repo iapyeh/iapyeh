@@ -1,8 +1,8 @@
 
-.. _h2e661a3767525416b763b286a671480:
+.. _h3d604e704b63686c06b574202c701c:
 
-YHY’s Incubator
-###############
+YHY’s Blog
+##########
 
 .. _h1a194a7421203013187902d456f7043:
 
@@ -39,6 +39,10 @@ Technical
 
 * \ |LINK5|\ (In Traditional Chinese)
 
+* \ |LINK6|\  (In Traditional Chinese)
+
+.. bottom of content
+
 
 .. |LINK1| raw:: html
 
@@ -59,4 +63,8 @@ Technical
 .. |LINK5| raw:: html
 
     <a href="blogs/technical/how2pydocs.html">如何寫Python文件</a>
+
+.. |LINK6| raw:: html
+
+    <a href="blogs/technical/VirtualenvProblem.html">在中文目錄建立virtualenv 的問題</a>
 
