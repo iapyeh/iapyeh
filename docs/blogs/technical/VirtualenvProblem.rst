@@ -13,7 +13,7 @@
 問題一：UnicodeDecodeError
 ==========================
 
-\ |IMG1|\ ，因為要安裝用virtualenv在中文目錄而發生UnicodeDecodeError的問題，你可以修改virtualenv.py來解決這個問題，virtualenv.py在site-packages下的virtualenv的egg檔案裡面。
+\ |IMG1|\ 如果因為要安裝用virtualenv在中文目錄執行命令（例如 `virtualenv testenv2`）而發生UnicodeDecodeError的問題時，你要修改virtualenv.py來解決這個問題，virtualenv.py在site-packages下的virtualenv的egg檔案裡面。
 
 .. _h174fb648377959437b5c1f697c1c40:
 
