@@ -41,7 +41,7 @@
 問題二：Symbol not found:
 =========================
 
-另外一個MacOS的使用者，使用anaconda版本的python時可能會遇到__PyCodecInfo_GetIncrementalDecoder的問題，如果沒遇到這問題可以跳過本步驟：
+另外一個問題是MacOS的使用者使用anaconda版本的python時可能會遇到__PyCodecInfo_GetIncrementalDecoder的問題，如果沒遇到這問題可以跳過本步驟：
 
 \ |IMG2|\ 
 
