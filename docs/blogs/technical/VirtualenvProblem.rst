@@ -80,7 +80,7 @@
 
 會遇到SyntaxError的問題。你要修改pip（請注意，是pip，不是pip.py），方法如下::
 
-    #先找出你用的pip的位置
+    #先在你虛擬環境中找出pip的位置（一般會是在 virtual-env-folder/bin/ 下）
 
     $ which pip
 
