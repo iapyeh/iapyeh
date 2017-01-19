@@ -14,6 +14,7 @@
     border: solid 1px #b59e9e;
     padding: 12px;
     margin: -12px -12px -12px -12px;
+    margin-bottom: -12px !important;
 }
 
 .admonition- p.last{
