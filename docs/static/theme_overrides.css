@@ -9,3 +9,10 @@
 .line-block, .docutils.footnote {
     line-height: 24px;
 }
+
+.admonition p.list{
+    border: solid 1px #b59e9e;
+    padding: 12px;
+    margin: -12px;
+    margin-bottom: 20px;
+}
