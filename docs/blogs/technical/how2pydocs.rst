@@ -4,33 +4,35 @@
 如何寫Python文件
 ****************
 
+.. _bookmark-id-w1n8673l25vi:
+
 .. _h1634483c7822441972316c7301545:
 
 熱身
 ====
 
-本段閒聊關於寫文件的雜談，因為本文很長，這小段是作為熱身用途，如果你已經準備好了，略過不看無所謂。
+因為本文很長，本段先閒聊些關於寫文件的雜談作為開始，這一小段是熱身用途，如果你已經準備好了，略過不看無所謂，請直接看下一段的「\ |LINK1|\ 」。
 
 寫文件是很多工程師的死穴，靠軟體吃飯的工程師多半是公司強制要求下勉強把寫註解當作寫文件，他可能可以熬夜寫程式，但要他寫文件不到十分鐘就不耐煩，甚至有些工程師會認為寫文件是一種低階的工作，要求他寫文件是對他的羞辱。然而，無論如何抵死不從，系統文件總是要有人寫。
 
-把寫文件當成是一種低階工作這種幼稚觀念，近幾年來已經有所改變，儘管有些緩慢，但把寫程式跟寫文件聯繫在一起當成同一件事情的論述，依然罕見，如果政府要推行「中小學生寫程式」大家都叫好，但如果是「中小學生寫文件」大概有人又要絕食了。雖然如此，至少像是寫HTML, Javascript已經先脫離「低階工作」這一類別，而早年被視為「根本不是工程師在搞的」GUI，則是鹹魚翻身，以UX的姿態重出江湖，成為人人敬重的職務。
+把寫文件當成是一種低階工作這種幼稚觀念，近幾年來已經有所改變，儘管有些緩慢，但把寫程式跟寫文件聯繫在一起當成同一件事情的論述依然罕見，如果政府要推行「中小學生寫程式」大家都叫好，但如果是「中小學生寫文件」大概有人又要絕食了，但對於以寫程式糊口的工程師，這兩者是同一件事。好在，像是寫HTML, Javascript已經先脫離「低階工作」這一類別，而早年被視為「根本不是工程師該搞的」GUI則是鹹魚翻身，以UX的姿態重出江湖成為人人敬重的職務。
 
-不過技術的發展似乎是有進有退，像是幾家大廠利用典範轉移為以手機為主流之行動網路的時機，把Macromedia (Adobe) Flash幹掉，指控它不夠安全又太耗電，然而目前還沒有像樣的替代品能做得比Flash更好，HTML5，CSS3，ECMAScript 6這些發展已經將近十年了，還是遠不如Flash好用。
+不過事情的發展似乎總是有進有退，像是幾家巨人大廠利用典範轉移成以行動網路為主流的時機，把Macromedia (Adobe) Flash幹掉，說它不夠安全又太耗電，然而目前為止這些巨人沒有一個能推出做得比Flash更好的替代品，甚至連個像樣的替代品都沒有。HTML5，CSS3，ECMAScript 6這些發展已經將近十年了，還是遠不如Flash好用。
 
-寫文件這件事情似乎也發生同樣的返祖現象。筆者指的是Markdown竟然會流行起來這件事情。用What You See Is What You Get的方式寫文件，是三十年前Window 3.1時代的MS Word就已經達到的成就，MS Word也造就了Bill Gates的微軟王國，至今MS Word依然制罷文書編輯無人能敵。三十年後竟然反過來開始流行作者要先學一種標注（Markup）語法寫文件，然後把螢幕一分為二，左邊寫右邊看會render成什麼樣子的方式寫文件，這件事情令筆者覺不可思議。我們用Word的時候是寫xdoc的XML再從Word的當中看到文件長什麼樣子嗎？並不是，而是在Word當中寫內容，再轉成xdoc的XML格式。那麼為何要用Markdown以古早時代的方式寫文件呢？當然，這只是筆者個人的牢騷罷了，也許復古的作法有其趣味吧。總之，發生在別人家裡面的事情，基本上不關自己的事情，人家高興就好。
+寫文件這件事情似乎也發生同樣的返祖現象。筆者指的是Markdown這件事。用What You See Is What You Get的方式寫文件，是三十年前Window 3.1時代的MS Word就已經達到的成就，MS Word也造就了Bill Gates的微軟王國，至今MS Word依然制罷文書編輯無人能敵。現在竟然反過來要先學一種標注（Markup）語法寫文件，然後把螢幕一分為二，左邊寫右邊看會render成什麼樣子的方式寫文件，這事令筆者覺不可思議。我們用Word的時候是寫xdoc的XML再從Word的當中看到文件長什麼樣子嗎？並不是，而是在Word當中寫內容，再轉成xdoc的XML格式。那麼為何要用Markdown以古早時代的方式寫文件呢？當然，這只是筆者個人的牢騷罷了，也許復古的作法有其趣味吧。總之，發生在別人家裡面的事情，基本上不關自己的事情，人家高興就好。
 
-但話說回來，我們得承認，寫文件畢竟還是挺折磨的，如果用Markdown寫的話只是雪上加霜而已。寫系統文件有沒有WYSIWYG的方式呢？有的！這篇文章要引介大家認識另一種Markup的語法，一個比Markdown更早、更完整且完全是從Python土生土長起來的，reStructuredText是也！
+但話說回來，寫文件畢竟還是挺折磨的，用Markdown寫的話只是雪上加霜而已。重點是，寫系統文件有沒有WYSIWYG的方式呢？有的！這篇文章要介紹大家認識另一種標注的語法，一個比Markdown更早、更完整且完全是從Python土生土長起來的，reStructuredText是也！
 
-別誤會，筆者不是要大家以後改寫reStructuredText不要寫Markdown，要是如此就更返祖倒退了，因為 reStructuredText 比Markdown 嚴格，要徒手寫reStructuredText簡直是沒人性。所以，這篇文章也要介紹一個能把Google Docs轉成reStructuredText的工具，實際上用來寫文件的是Google Docs，寫完後再轉就好。用起來就跟寫Word存成PDF一樣，筆者認為這才是寫文件的正常方式。
+別誤會，筆者不是要大家以後不要寫Markdown改寫reStructuredText，要是如此就更返祖倒退了，因為 reStructuredText 比Markdown 嚴格，要徒手寫reStructuredText簡直是沒人性。筆者是認為，寫文件就是寫文件，不要再透過寫標注來寫文件，這樣才是正常的方式。所以，筆者在這篇文章也要介紹一個能把Google Docs轉成reStructuredText的工具，用Google Docs來寫文件，寫完後再轉成所需要的標注格式。用起來就跟寫Word存成PDF一樣。
 
-除了寫文件的工具之外，本文內容還要介紹Hosting文件的網站給您。所以，這篇文章介紹給大家的是寫系統文件的Total Solution。雖然筆者覺得價格不應該是個賣點，但還是值得一提：本文介紹的是Solution剛好都是完全免費的。
+除了寫文件的工具之外，本文內容還會介紹Hosting文件的網站。所以，這篇文章介紹給大家的是寫系統文件的Total Solution。雖然筆者覺得價格不應該是個賣點，但還是值得一提：本文介紹的是Solution剛好都是免費的。
 
-.. _h174fb648377959437b5c1f697c1c40:
+.. _h1634483c7822441972316c7301545:
 
-本文主旨
-========
+主旨
+====
 
-本文主旨在教導您用Python系統開發時，如何完成一個\ |LINK1|\ 網站。本文適合的讀者是軟體工程師、研發部秘書、產品經理等與系統文件相關人員。本文內容不涉及系統文件有哪些段落、如何管理與審查、哪些條目與聲明版權聲明等內容與流程管理，也不涉及措詞、引用格式等風格問題。本文只專注於介紹程式碼及系統文件的格式、製作流程與工具，是一個工具性的HOW-TO文章。
+本文主旨在教導您用Python系統開發時，如何完成一個\ |LINK2|\ 網站。本文適合的讀者是軟體工程師、研發部秘書、產品經理等與系統文件相關人員。本文內容不涉及系統文件有哪些段落、如何管理與審查、哪些條目與聲明版權聲明等內容與流程管理，也不涉及措詞、引用格式等風格問題。本文只專注於介紹程式碼及系統文件的格式、製作流程與工具，是一個工具性的HOW-TO文章。
 
 開始之前，容筆者先替初學程式者或行外人釐清「寫程式」跟「寫系統」的概念，這兩個差很多，可是經常被混為一談。在本文中「寫程式」意思是開一個文字檔輸入程式碼，「寫系統」意思是指寫程式完成某特定用途。因為系統可大可小（或許這就是造成語意模糊的地方），本文不以大小區別這兩者，一個系統可能只需要一個程式碼檔案，也可能需要數千個程式碼檔案、圖檔、音樂檔等等。只要程式碼不是用完就丟，而是有寫成文件需求的，都算是本文所說的系統。
 
@@ -54,7 +56,7 @@
 
 文件產生器無法從漫無格式的散文當中產生文件，寫註解必須遵守某些規則，文件產生器才能取出當中的資訊。遵守規則寫註解的行為稱為「標注」，該規則則稱為「標注語法」。
 
-Google在他的Python\ |LINK2|\ （Google Python Style Guide）中，規定了標注語法的要求。標注語法不是程式語法只是一種風格，Python的知名的套件（程式庫）Numpy對於標注語法也訂了一份屬於它自己的風格（\ |LINK3|\ ）。
+Google在他的Python\ |LINK3|\ （Google Python Style Guide）中，規定了標注語法的要求。標注語法不是程式語法只是一種風格，Python的知名的套件（程式庫）Numpy對於標注語法也訂了一份屬於它自己的風格（\ |LINK4|\ ）。
 
 文件產生器會從標注中取出兩種訊息：
 
@@ -84,7 +86,7 @@ Python的慣例使用reStructruedText作為標注格式。在台灣網路上比�
 
 \ |IMG1|\ 
 
-此範例示範一個名稱為 example_generator的函式如何在註解中表達函式的功能、參數、參數的意義及回傳值。函式名稱會由文件產生器根據程式語言的語法自動識別，註解中的 Args:, Yields:, Examples: 是屬於意義標注，意義標注內容偶爾也會包含有格式標注，例如第二行的\`\`Yields\`\` 則是reStrcturedText的格式標注。你可以\ |LINK4|\ ，或者是這份\ |LINK5|\ 。
+此範例示範一個名稱為 example_generator的函式如何在註解中表達函式的功能、參數、參數的意義及回傳值。函式名稱會由文件產生器根據程式語言的語法自動識別，註解中的 Args:, Yields:, Examples: 是屬於意義標注，意義標注內容偶爾也會包含有格式標注，例如第二行的\`\`Yields\`\` 則是reStrcturedText的格式標注。你可以\ |LINK5|\ ，或者是這份\ |LINK6|\ 。
 
 .. _bookmark-id-s4syqf18lhw3:
 
@@ -99,7 +101,7 @@ Python的慣例使用reStructruedText作為標注格式。在台灣網路上比�
 
 \ |IMG2|\ 
 
-這是一個在javascript程式碼當中，為JSDocs文件產生器而標注的註解。函式的參數是用＠param標注，而上面的Python案例中則使用Args:逐行標記。這個案例取自\ |LINK6|\ 。兩者標注的差異並不是Javascript與Python的語言差異，而是因為這份文件的目的是為了能用JSDoc文件產生器從程式碼產生API文件。換言之，如果你將來預備讓Sphinx替你的javascript產生文件，你也可以在Javascript程式碼當中使用Sphinx可以接受的標注方式，然後由Sphinx產生Javascript的API文件\ [#F4]_\ 。
+這是一個在javascript程式碼當中，為JSDocs文件產生器而標注的註解。函式的參數是用＠param標注，而上面的Python案例中則使用Args:逐行標記。這個案例取自\ |LINK7|\ 。兩者標注的差異並不是Javascript與Python的語言差異，而是因為這份文件的目的是為了能用JSDoc文件產生器從程式碼產生API文件。換言之，如果你將來預備讓Sphinx替你的javascript產生文件，你也可以在Javascript程式碼當中使用Sphinx可以接受的標注方式，然後由Sphinx產生Javascript的API文件\ [#F4]_\ 。
 
 
 ..  Note:: 
@@ -115,7 +117,7 @@ Python的慣例使用reStructruedText作為標注格式。在台灣網路上比�
 
 因為，系統文件不是只有「API文件」，還有「專案文件」。「專案文件」是什麼呢？假如你請工程師去研究一下，要辨識圖像用哪個Open Source的SDK比較好，工程師通常會回報說「A比較強可是文件少，B比較弱可是文件多」，他所說的「文件」就是所謂的「專案文件」。「專案文件」這個概念我們在網路看得多但談的少，少到連名字都還沒共識，也許「專案文件」對你有別的意義。但是在本文中，凡是「非API的文件」，亦即那些不是用來說明你的程式有哪些模組、有哪些函數呼叫的文件，本文都稱之為專案文件。
 
-例如\ |LINK7|\ 網站上有一個「首頁」說明GGeditor 是什麼、有什麼特性，還有其他為了讓使用者了解如何使用GGeditor 的Tutorial（導引）, User Guide（使用手冊）, How To（如何）, Examples（範例）等等都不是API文件，而是GGeditor 的「專案文件」。GGeditor只是一個小工具，大型系統的專案文件是多如牛毛，而且經常需要改版再改版，不只文字跟圖案，甚至還有影音。通常咱們台灣的程式設計師十八般武藝都要會一手，不只要寫程式跟寫API文件，還要負責撰寫這些專案文件，在人力充沛的開發團隊也許會有PM或秘書負責，然而，不論是誰負責，系統文件包括專案跟API文件這兩種是不變的。
+例如\ |LINK8|\ 網站上有一個「首頁」說明GGeditor 是什麼、有什麼特性，還有其他為了讓使用者了解如何使用GGeditor 的Tutorial（導引）, User Guide（使用手冊）, How To（如何）, Examples（範例）等等都不是API文件，而是GGeditor 的「專案文件」。GGeditor只是一個小工具，大型系統的專案文件是多如牛毛，而且經常需要改版再改版，不只文字跟圖案，甚至還有影音。通常咱們台灣的程式設計師十八般武藝都要會一手，不只要寫程式跟寫API文件，還要負責撰寫這些專案文件，在人力充沛的開發團隊也許會有PM或秘書負責，然而，不論是誰負責，系統文件包括專案跟API文件這兩種是不變的。
 
 這些專案文件該怎麼寫沒有強制規定或國際標準可以遵循，既然最終是用網頁呈現，你直接寫HTML也行。然而，慢慢地你會發現，只有HTML是不夠的，還要有PDF才行，否則讀者要把整份文件列印下來還挺麻煩的。到頭來終究會認識到：如果可以只寫一份，然後由那一份去產生其他的格式，是一種比較好的作法。
 
@@ -147,7 +149,7 @@ But ! 一旦你開始動手之後，你會發現事情沒那麼簡單。
 
 Sphinx只是一個應用程式，要有人知道如何安裝、執行與使用，還要架一個網站把它產生的HTML檔案及附圖放上去。Sphinx只要用pip安裝即可，比較大的困擾是，如果不是資源豐沛的公司，要架設網站是挺耗時費力的，頻寬、網址申請、VM管理還有惱人的資安問題要有對策。
 
-沒問題！ \ |LINK8|\  (RTD)跟Github可以幫你搞定。
+沒問題！ \ |LINK9|\  (RTD)跟Github可以幫你搞定。
 
 你把文件commit到Github去，RTD的後台就可以從你的Github repository中用Sphinx產生你的系統文件，而且還能全文檢索。也就是說，RTD是一個hosting技術文件的網站。它是免費的\ [#F8]_\ 。使RTD跟Github之後，製作文件的流程架構會是這樣：
 
@@ -164,7 +166,7 @@ Sphinx只是一個應用程式，要有人知道如何安裝、執行與使用�
 
 第二、專案文件的部分，commit reStructuredText格式的文字檔。
 
-關於API文件，因為Sphinx是從 Python程式中產生文件，你要commit的是 Python script。那些程式碼可以自由選擇遵守Google或NumPy制定的註解風格，這兩者風格Sphinx都支持。你可以不提供程式碼內關於運算邏輯的部分，只提供程式碼的註解部分，換言之，只提供interface性質的檔案是可以的。要注意的是，如果你要讓RTD產生API文件，要在RTD的設定檔(conf.py)中宣告，細節可參考GGeditor提供的\ |LINK9|\ 。
+關於API文件，因為Sphinx是從 Python程式中產生文件，你要commit的是 Python script。那些程式碼可以自由選擇遵守Google或NumPy制定的註解風格，這兩者風格Sphinx都支持。你可以不提供程式碼內關於運算邏輯的部分，只提供程式碼的註解部分，換言之，只提供interface性質的檔案是可以的。要注意的是，如果你要讓RTD產生API文件，要在RTD的設定檔(conf.py)中宣告，細節可參考GGeditor提供的\ |LINK10|\ 。
 
 至於專案文件，你只需寫成reStructuredText格式就行了，是的「只」需要寫成reStructuredText格式，真的「只」需要寫成reStructuredText格式！
 
@@ -177,27 +179,27 @@ reStructuredText
 
 因為本文並不是要作reStructuredText的教學，在此僅提供以下幾份相關文件給您參考：
 
-* reStructuredText是Docutils專案下發展出來的，\ |LINK10|\ 。
+* reStructuredText是Docutils專案下發展出來的，\ |LINK11|\ 。
 
-* 如果覺得讀上面的規格很煩，可以看這一份濃縮版 \ |LINK11|\ 。
+* 如果覺得讀上面的規格很煩，可以看這一份濃縮版 \ |LINK12|\ 。
 
-* A ReStructuredText Primer的\ |LINK12|\ ，你可以看看reStructruedText長什麼樣子。
+* A ReStructuredText Primer的\ |LINK13|\ ，你可以看看reStructruedText長什麼樣子。
 
-* 如果上面的濃縮版還是很難讀，這裡還有\ |LINK13|\ 
+* 如果上面的濃縮版還是很難讀，這裡還有\ |LINK14|\ 
 
-* 最完整的資訊在\ |LINK14|\ 
+* 最完整的資訊在\ |LINK15|\ 
 
 .. _hd1b83d48586e1b393a624e28544946:
 
 練習題
 ------
 
-在繼續往下讀之前，筆者我建議你實際動手寫看看reStructruedText。有一個很棒的網站，可以實際體會寫reStructuredText的快感！\ |LINK15|\ ，以下是一個小作業，你可以當作練習。
+在繼續往下讀之前，筆者我建議你實際動手寫看看reStructruedText。有一個很棒的網站，可以實際體會寫reStructuredText的快感！\ |LINK16|\ ，以下是一個小作業，你可以當作練習。
 
 
 .. admonition:: 練習題
 
-    下圖有三句話，請在\ |LINK16|\ 上用reStructuredText寫看看。\ |IMG5|\ 這三句話中包含一個單行的段落以及兩個清單項目(list item)，清單項目包含純文字以及超連結。
+    下圖有三句話，請在\ |LINK17|\ 上用reStructuredText寫看看。\ |IMG5|\ 這三句話中包含一個單行的段落以及兩個清單項目(list item)，清單項目包含純文字以及超連結。
 
 （筆者在這裡先暫停一個禮拜等你完成練習題）\ |IMG6|\ 
 
@@ -208,7 +210,7 @@ reStructuredText
 
 這位同學，我希望你是功課寫完之後才來看解答，但我猜你一定沒寫就直接跳看解答。如果是這樣的話，恭喜，你的進度已經超前那些還在寫作業的同學一個禮拜以上。事實上，如果同學你從零開始，根據網路上的reStructuredText資料一個禮拜內完成習題的話，你這位天才請接受筆者一拜\ |IMG7|\ 。
 
-因為本文是用reStructuredText發佈在 RTD上的，\ |LINK17|\ ，參考的答案在裡面。不論你有沒有做功課，請點選連結打開來，用五秒鐘的時間捲動看一看，想一想，你可以用什麼工具把你的使用手冊等等系統文件用reStructuredText寫出來。
+因為本文是用reStructuredText發佈在 RTD上的，\ |LINK18|\ ，參考的答案在裡面。不論你有沒有做功課，請點選連結打開來，用五秒鐘的時間捲動看一看，想一想，你可以用什麼工具把你的使用手冊等等系統文件用reStructuredText寫出來。
 
 如果你正在想「筆記本、Notepad++、Sublime、Atom、VIM哪一個比較好」，再多告訴你一點關於用reStructuredText寫表格的語法。以下這個表格：
 
@@ -273,7 +275,7 @@ GGeditor還有一個用途是它可以同時用來產生專案文件與API文件
 
 \ |IMG10|\ 
 
-這是\ |LINK18|\ ，以及\ |LINK19|\ 。如果你是RTD的初學者，GGeditor的網站上有How To文件引導你\ |LINK20|\ ，讓你的RTD文件網站跟Github可以連動。文件網站上也有How To文件，引導你\ |LINK21|\ ，讓你只要把程式碼Commit到Github，你在RTD的API文件也就自動完成更新。
+這是\ |LINK19|\ ，以及\ |LINK20|\ 。如果你是RTD的初學者，GGeditor的網站上有How To文件引導你\ |LINK21|\ ，讓你的RTD文件網站跟Github可以連動。文件網站上也有How To文件，引導你\ |LINK22|\ ，讓你只要把程式碼Commit到Github，你在RTD的API文件也就自動完成更新。
 
 .. _h1634483c7822441972316c7301545:
 
@@ -284,7 +286,7 @@ GGeditor還有一個用途是它可以同時用來產生專案文件與API文件
 
 \ |IMG11|\ 
 
-附註一：這篇長篇大論，當然不是用reStructuredText雕刻出來的，而是用GGeditor轉換的，\ |LINK22|\ 。
+附註一：這篇長篇大論，當然不是用reStructuredText雕刻出來的，而是用GGeditor轉換的，\ |LINK23|\ 。
 
 附註二：從2017年1月15日起，GGeditor的新版本支持把表格轉成HTML的功能，表格的rowspan, colspan，顏色都可以更精準的轉換到RTD的網頁上。
 
@@ -293,89 +295,93 @@ GGeditor還有一個用途是它可以同時用來產生專案文件與API文件
 
 .. |LINK1| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">像GGeditor這樣的文件</a>
+    <a href="#bookmark-id-w1n8673l25vi">主旨</a>
 
 .. |LINK2| raw:: html
 
-    <a href="http://google.github.io/styleguide/pyguide.html" target="_blank">程式碼風格指南</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">像GGeditor這樣的文件</a>
 
 .. |LINK3| raw:: html
 
-    <a href="http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html" target="_blank">Numpy的規則</a>
+    <a href="http://google.github.io/styleguide/pyguide.html" target="_blank">程式碼風格指南</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://github.com/iapyeh/GGeditor/blob/master/backend/apidocsample.py" target="_blank">按這裡看完整的示範程式檔</a>
+    <a href="http://sphinxcontrib-napoleon.readthedocs.io/en/latest/example_numpy.html" target="_blank">Numpy的規則</a>
 
 .. |LINK5| raw:: html
 
-    <a href="http://docutils.sourceforge.net/docutils/statemachine.py" target="_blank">官方版的示範程式檔</a>
+    <a href="https://github.com/iapyeh/GGeditor/blob/master/backend/apidocsample.py" target="_blank">按這裡看完整的示範程式檔</a>
 
 .. |LINK6| raw:: html
 
-    <a href="http://google.github.io/styleguide/jsguide.html#jsdoc-tags" target="_blank">Google Javascript 風格指南（Google Javascript Style Guide）</a>
+    <a href="http://docutils.sourceforge.net/docutils/statemachine.py" target="_blank">官方版的示範程式檔</a>
 
 .. |LINK7| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">GGeditor的文件</a>
+    <a href="http://google.github.io/styleguide/jsguide.html#jsdoc-tags" target="_blank">Google Javascript 風格指南（Google Javascript Style Guide）</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://readthedocs.org" target="_blank">readthedocs.org</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">GGeditor的文件</a>
 
 .. |LINK9| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">How to Create API Docs</a>
+    <a href="https://readthedocs.org" target="_blank">readthedocs.org</a>
 
 .. |LINK10| raw:: html
 
-    <a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html" target="_blank">標準規格文件在此</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">How to Create API Docs</a>
 
 .. |LINK11| raw:: html
 
-    <a href="http://docutils.sourceforge.net/docs/user/rst/quickstart.html" target="_blank">A ReStructuredText Primer</a>
+    <a href="http://docutils.sourceforge.net/docs/ref/rst/restructuredtext.html" target="_blank">標準規格文件在此</a>
 
 .. |LINK12| raw:: html
 
-    <a href="http://docutils.sourceforge.net/docs/user/rst/quickstart.txt" target="_blank">原始reStructuredText檔</a>
+    <a href="http://docutils.sourceforge.net/docs/user/rst/quickstart.html" target="_blank">A ReStructuredText Primer</a>
 
 .. |LINK13| raw:: html
 
-    <a href="http://docutils.sourceforge.net/docs/user/rst/cheatsheet.txt" target="_blank">單張版</a>
+    <a href="http://docutils.sourceforge.net/docs/user/rst/quickstart.txt" target="_blank">原始reStructuredText檔</a>
 
 .. |LINK14| raw:: html
 
-    <a href="http://docutils.sourceforge.net/rst.html" target="_blank">官方網頁</a>
+    <a href="http://docutils.sourceforge.net/docs/user/rst/cheatsheet.txt" target="_blank">單張版</a>
 
 .. |LINK15| raw:: html
 
-    <a href="http://rst.ninjs.org/" target="_blank">請點這裡開啟線上體驗</a>
+    <a href="http://docutils.sourceforge.net/rst.html" target="_blank">官方網頁</a>
 
 .. |LINK16| raw:: html
 
-    <a href="http://rst.ninjs.org/" target="_blank">線上體驗版</a>
+    <a href="http://rst.ninjs.org/" target="_blank">請點這裡開啟線上體驗</a>
 
 .. |LINK17| raw:: html
 
-    <a href="https://raw.githubusercontent.com/iapyeh/incubator/master/docs/how2pythondocs.rst" target="_blank">這是本文的reStructruedText檔</a>
+    <a href="http://rst.ninjs.org/" target="_blank">線上體驗版</a>
 
 .. |LINK18| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor的安裝網頁</a>
+    <a href="https://raw.githubusercontent.com/iapyeh/incubator/master/docs/how2pythondocs.rst" target="_blank">這是本文的reStructruedText檔</a>
 
 .. |LINK19| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">GGeditor的文件網站</a>
+    <a href="https://chrome.google.com/webstore/detail/ggeditor/piedgdbcihbejidgkpabjhppneghbcnp" target="_blank">GGeditor的安裝網頁</a>
 
 .. |LINK20| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html" target="_blank">如何完成RTD要求的Github設定</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/index.html" target="_blank">GGeditor的文件網站</a>
 
 .. |LINK21| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">如何設定你的API文件</a>
+    <a href="http://ggeditor.readthedocs.io/en/latest/how2Readthedocs.html" target="_blank">如何完成RTD要求的Github設定</a>
 
 .. |LINK22| raw:: html
+
+    <a href="http://ggeditor.readthedocs.io/en/latest/ApiDoc.html" target="_blank">如何設定你的API文件</a>
+
+.. |LINK23| raw:: html
 
     <a href="https://docs.google.com/document/d/1z67wTux_78RNeA6Mkl2MPyD68h1oX70lv_UY7-B_WiA/edit?usp=sharing" target="_blank">這裡是Google Docs的原始文件</a>
 
