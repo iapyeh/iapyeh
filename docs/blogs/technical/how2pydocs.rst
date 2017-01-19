@@ -241,7 +241,7 @@ reStructuredText
 GGeditor
 ========
 
-如果你認真寫過練習題，相信你已經透徹了解用reStructuredText寫文件那種彷彿每根手指骨折裹著石膏的沈重感，本來工程師遇到寫文件還能撐十分鐘，現在恐怕開始考慮寫辭呈比寫文件要實際吧。要寫reStructuredText，上面提到的那些文字編輯器都是一樣的令人感到遺憾。既然你能把這篇長文看到這裡，相信你真心想把寫文件這個功力練好。所以筆者在此介紹一個工具給你，至少可以節省你一個月以上的時間，一個不必懂reStructuredText就可以完成系統文件的工具：GGeditor。
+如果你認真寫過練習題，相信你已經透徹了解用reStructuredText寫文件那種彷彿每根手指骨折裹著石膏的沈重感，你本來想要開始寫文件，現在可能開始想寫辭呈。要寫reStructuredText，上面提到的那些文字編輯器都是一樣的令人感到遺憾。既然你能把這篇長文看到這裡，相信你真心想把寫文件這個功力練好。所以筆者在此介紹一個工具給你，至少可以節省你一個月以上的時間，一個不必懂reStructuredText就可以完成系統文件的工具：GGeditor。
 
 GGeditor是Google Docs的Add-on，它從Google Docs文件產生reStructuredText格式的檔案，你在Google Docs裡面寫文章、寫條列項目、畫表格、貼圖、註腳，然後GGeditor把它轉成reStructuredText。你可以完全不懂reStructuredText。
 
