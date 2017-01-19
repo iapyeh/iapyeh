@@ -14,5 +14,10 @@
     border: solid 1px #b59e9e;
     padding: 12px;
     margin: -12px;
+    margin-bottom: 0px;
+}
+
+.admonition- p.last{
     margin-bottom: 20px;
 }
+
