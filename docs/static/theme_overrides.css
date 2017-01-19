@@ -10,7 +10,7 @@
     line-height: 24px;
 }
 
-.admonition p.list{
+.admonition p.last{
     border: solid 1px #b59e9e;
     padding: 12px;
     margin: -12px;
