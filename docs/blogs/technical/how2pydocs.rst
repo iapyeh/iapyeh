@@ -363,7 +363,7 @@ GGeditor還有一個用途是它可以同時用來產生專案文件與API文件
 
 .. |LINK18| raw:: html
 
-    <a href="https://raw.githubusercontent.com/iapyeh/incubator/master/docs/how2pythondocs.rst" target="_blank">這是本文的reStructruedText檔</a>
+    <a href="https://raw.githubusercontent.com/iapyeh/iapyeh/master/docs/blogs/technical/how2pydocs.rst" target="_blank">這是本文的reStructruedText檔</a>
 
 .. |LINK19| raw:: html
 
