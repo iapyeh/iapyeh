@@ -1,8 +1,8 @@
 
-.. _h3d604e704b63686c06b574202c701c:
+.. _he14596b4f741d1d372f332f6c70234e:
 
-YHY’s Blog
-##########
+Yeh Hsin Yuan （葉信源）
+########################
 
 .. _h1a194a7421203013187902d456f7043:
 
@@ -41,6 +41,8 @@ Technical
 
 * \ |LINK6|\  (In Traditional Chinese)
 
+* \ |LINK7|\ （In Traditional Chinese）
+
 .. bottom of content
 
 
@@ -67,4 +69,8 @@ Technical
 .. |LINK6| raw:: html
 
     <a href="blogs/technical/VirtualenvProblem.html">在中文目錄建立virtualenv 的問題</a>
+
+.. |LINK7| raw:: html
+
+    <a href="http://iapyeh.readthedocs.io/en/latest/blogs/technical/GGeditorTutorialTw.html" target="_blank">在RTD當中建立專案網站</a>
 
