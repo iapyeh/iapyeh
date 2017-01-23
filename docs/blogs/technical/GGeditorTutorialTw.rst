@@ -84,4 +84,4 @@ Tutorial 繁體中文版
 .. |IMG1| image:: static/GGeditorTutorialTw_1.png
    :height: 268 px
    :width: 477 px
-   :target: https://youtu.be/3dsMfAbZWS4
+   :target: https://youtu.be/wT__Q80ptOw
