@@ -19,6 +19,6 @@
 }
 .admonition- .last{
     margin-bottom: 20px !important;
-    border-bottom: solid 1px #b59e9e;
+    border-bottom: solid 1px #b59e9e !important;
 }
 
