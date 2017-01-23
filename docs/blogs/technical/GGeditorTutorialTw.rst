@@ -81,7 +81,7 @@ Tutorial 繁體中文版
     <a href="https://docs.google.com/document/d/1pbNOF2GSYliF4X9bsB05tVm-diBGt4Kfys8MudcHJhs/edit?usp=sharing" target="_blank">請點我開啟原始檔</a>
 
 
-.. |IMG1| image:: static/Tutorial_繁中_1.png
+.. |IMG1| image:: static/GGeditorTutorialTw_1.png
    :height: 268 px
    :width: 477 px
    :target: https://youtu.be/3dsMfAbZWS4
