@@ -52,7 +52,7 @@ Technical
 
 .. |LINK2| raw:: html
 
-    <a href="http://textfactory.readthedocs.io/" target="_blank">Help</a>
+    <a href="http://textfactory.readthedocs.io/" target="_blank">Project site</a>
 
 .. |LINK3| raw:: html
 
@@ -60,7 +60,7 @@ Technical
 
 .. |LINK4| raw:: html
 
-    <a href="http://ggeditor.readthedocs.io/" target="_blank">Help</a>
+    <a href="http://ggeditor.readthedocs.io/" target="_blank">Project site</a>
 
 .. |LINK5| raw:: html
 
@@ -72,5 +72,5 @@ Technical
 
 .. |LINK7| raw:: html
 
-    <a href="blogs/technical/GGeditorTutorialTw.html">Tutorial - 從零開始建立一個RTD文件網站</a>
+    <a href="https://goo.gl/qH1WWj" target="_blank">Tutorial - 從零開始建立一個RTD文件網站</a>
 
