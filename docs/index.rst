@@ -72,5 +72,5 @@ Technical
 
 .. |LINK7| raw:: html
 
-    <a href="http://iapyeh.readthedocs.io/en/latest/blogs/technical/GGeditorTutorialTw.html" target="_blank">在RTD當中建立專案網站</a>
+    <a href="blogs/technical/GGeditorTutorialTw.html">Tutorial - 從零開始建立一個RTD文件網站</a>
 
