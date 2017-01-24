@@ -300,7 +300,7 @@ GGeditor還有一個用途是它可以同時用來產生專案文件與API文件
 
 .. |LINK1| raw:: html
 
-    <a href="GGeditorTutorialTw.html">Tutorial - 從零開始建立一個RTD文件網站（影片）</a>
+    <a href="https://goo.gl/qH1WWj" target="_blank">Tutorial - 從零開始建立一個RTD文件網站（影片）</a>
 
 .. |LINK2| raw:: html
 
