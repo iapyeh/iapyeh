@@ -121,6 +121,6 @@
     <a href="http://highscope.ch.ntu.edu.tw/wordpress/?p=47158" target="_blank">蒙提霍爾問題（一）決勝21點</a>
 
 
-.. |IMG1| image:: static/Monty_Hall_problem_1.png
+.. |IMG1| image:: static/MontyHallProblem_1.png
    :height: 250 px
    :width: 566 px
