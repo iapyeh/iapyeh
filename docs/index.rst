@@ -37,25 +37,27 @@ Blogs
 Technical
 =========
 
-* \ |LINK5|\ (In Traditional Chinese)
+* \ |LINK5|\ 
 
-* \ |LINK6|\  (In Traditional Chinese)
+* \ |LINK6|\  
 
-* \ |LINK7|\ （In Traditional Chinese）
+* \ |LINK7|\ 
 
 .. _he34321c2d622d341b786c3324384e:
 
 Essay
 =====
 
-* \ |LINK8|\ (In Traditional Chinese)
+* \ |LINK8|\ 
+
+* \ |LINK9|\ 
 
 .. _h6d307874835717394e3f1a464967c:
 
 Translation
 ===========
 
-* \ |LINK9|\  
+* \ |LINK10|\  
 
 .. bottom of content
 
@@ -90,9 +92,13 @@ Translation
 
 .. |LINK8| raw:: html
 
-    <a href="blogs/MontyHallProblem.html">蒙提霍爾問題</a>
+    <a href="blogs/LetsEncrypt.html">Let’s Encrypt 是社會運動</a>
 
 .. |LINK9| raw:: html
+
+    <a href="blogs/MontyHallProblem.html">蒙提霍爾問題</a>
+
+.. |LINK10| raw:: html
 
     <a href="blogs/translation/AProtocol4Dying.html">臨終協定(A Protocol for Dying; Pieter Hintjens 寫於 2016年4月22日11:43分)</a>
 
