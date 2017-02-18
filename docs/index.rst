@@ -50,6 +50,13 @@ Essay
 
 * \ |LINK8|\ (In Traditional Chinese)
 
+.. _h6d307874835717394e3f1a464967c:
+
+Translation
+===========
+
+* \ |LINK9|\  
+
 .. bottom of content
 
 
@@ -84,4 +91,8 @@ Essay
 .. |LINK8| raw:: html
 
     <a href="blogs/MontyHallProblem.html">蒙提霍爾問題</a>
+
+.. |LINK9| raw:: html
+
+    <a href="blogs/translation/AProtocol4Dying.html">臨終協定(A Protocol for Dying; Pieter Hintjens 寫於 2016年4月22日11:43分)</a>
 
