@@ -1,4 +1,8 @@
 
+.. _h761ab401543201137a78553757464:
+
+\ |IMG1|\ **********
+
 .. _h38696e1f644f3720725f1579511f303f:
 
 臨終協定(A Protocol for Dying)
@@ -255,3 +259,7 @@ Pieter Hintjens 的參考資料：
 
     <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.google.com.tw%2Fsearch%3Fnewwindow%3D1%26c2coff%3D1%26q%3D%25E8%2587%25A8%25E7%25B5%2582%2B%25E5%25AE%2589%25E6%25A8%2582%25E6%25AD%25BB%26oq%3D%25E8%2587%25A8%25E7%25B5%2582%2B%25E5%25AE%2589%25E6%25A8%2582%25E6%25AD%25BB%26gs_l%3Dserp.3...14393509.14404536.0.14404871.19.16.3.0.0.0.98.861.15.15.0....0...1c.1j4.64.serp..1.6.346.NCXZhCFLabM&h=ATPXddMaOExJ6iqXOkqX37YjjbHLkhGvU1TPoEgS2Bh9iOCmS4f5NzcRLFcHlfdD3pQYIQieRs8yKVKHHzTCRmDAUB-glXuq9RAzP9I1IN0n46g3lrgXz4VOxmwsD9DWi816Tot1CdKe&s=1" target="_blank">Google一下</a>
 
+
+.. |IMG1| image:: static/AProtocol4Dying_1.png
+   :height: 166 px
+   :width: 697 px
