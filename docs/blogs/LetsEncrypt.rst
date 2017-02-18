@@ -12,6 +12,8 @@ Let's Encrypt 是社會運動
 
 購買網路憑證不便宜，而且年年要繳年費。尤其想到DIY就可以的東西卻要花錢買簡直是搶劫，相對剝奪感異常強烈。這筆生意就跟天然瓦斯、第四台一樣，如果剛好趕上那個時代又站上那個位置的話可以建立傳世百代的基業。憑證當然要別人發不是自己DIY愛怎麼寫就怎麼寫，跟在憲法上宣稱領土範圍是不一樣的，付錢本是無可厚非，畢竟人家替你作擔保，至於多少才合理這就難講，就像保護費多少是流氓喊了算，不必多問。
 
+\ |IMG1|\ 
+
 Symantec CA 憑證的價目表 （2015/12，連結在文底）
 
 Let’s Encrypt發放的憑證跟DIY的憑證一樣都是免費的，不同之處是它竟然是瀏覽器認可的，瀏覽器不會跳出警告。那麼Let’s Encrypt保證憑證資訊跟真實世界符合嗎？當然不可能。如果沒有確認憑證資訊的真實性就發出憑證，那麼瀏覽器認可Let’s Encrypt的憑證不就是打臉現在憑證層層管控的認證體系嗎？是的，完全正確！那麼，那些製造瀏覽器的大公司認可它的玄機何在？資安是充滿禁忌、迷信、謠言及恫嚇的領域，稍微改動一下就會招來很多質疑，就像把一頭牛丟進尼羅河馬上聚集一群食人魚，咄咄逼人地質問「你保證安全嗎、你保證嗎、你負責嗎、你用什麼負責、你什麼學歷、你有證照嗎、出事你會切腹還是跳樓嗎？」。Let’s Encrypt敢膽「破壞行情」的正當性又何在？
@@ -59,3 +61,7 @@ Let’s Encrypt發放的憑證跟DIY的憑證一樣都是免費的，不同之�
 
     <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.symantec.com%2Fzh%2Ftw%2Fpage.jsp%3Fid%3Dcompare-ssl-certificates%23&h=ATP1W6p8fgkilJ0GohprWsj18Ce_HEUXMxV16WNE1O-uLuR0WUmj8E4MvRcBM8XDT0_Ny8zR9gnl1aAfZ8ihaJfIh_JjnwQiGvL1y9a0rsIumcJ5OyR-K1bpJ7F_PghQA0TBlcu4pOERTw" target="_blank">CA憑證售價表</a>
 
+
+.. |IMG1| image:: static/LetsEncrypt_1.png
+   :height: 140 px
+   :width: 697 px
