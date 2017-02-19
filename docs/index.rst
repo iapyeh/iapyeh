@@ -58,12 +58,16 @@ Essay
 
 * \ |LINK12|\  (2011/2/2)
 
+* \ |LINK13|\  (2010/12/25)
+
+* \ |LINK14|\  (2010/12/4)
+
 .. _h6d307874835717394e3f1a464967c:
 
 Translation
 ===========
 
-* \ |LINK13|\  (2016/4/24)
+* \ |LINK15|\  (2016/4/24)
 
 .. bottom of content
 
@@ -117,6 +121,14 @@ Translation
     <a href="blogs/essay/believescience.html">最不科學的事情就是相信科學</a>
 
 .. |LINK13| raw:: html
+
+    <a href="blogs/essay/hasghost.html">真的有鬼</a>
+
+.. |LINK14| raw:: html
+
+    <a href="blogs/essay/switch2mac.html">改用Mac 二三事</a>
+
+.. |LINK15| raw:: html
 
     <a href="blogs/translation/AProtocol4Dying.html">臨終協定(A Protocol for Dying by Pieter Hintjens)</a>
 
