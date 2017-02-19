@@ -52,12 +52,14 @@ Essay
 
 * \ |LINK9|\  (2015/12/12)
 
+* \ |LINK10|\  (2015/11/22)
+
 .. _h6d307874835717394e3f1a464967c:
 
 Translation
 ===========
 
-* \ |LINK10|\  (2016/4/24)
+* \ |LINK11|\  (2016/4/24)
 
 .. bottom of content
 
@@ -99,6 +101,10 @@ Translation
     <a href="blogs/LetsEncrypt.html">Let’s Encrypt 是社會運動</a>
 
 .. |LINK10| raw:: html
+
+    <a href="blogs/essay/constructiveProgramming.html">寫程式是建構式的</a>
+
+.. |LINK11| raw:: html
 
     <a href="blogs/translation/AProtocol4Dying.html">臨終協定(A Protocol for Dying by Pieter Hintjens)</a>
 
