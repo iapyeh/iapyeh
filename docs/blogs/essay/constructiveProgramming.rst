@@ -38,6 +38,6 @@
     <a href="https://www.facebook.com/notes/%E8%91%89%E4%BF%A1%E6%BA%90/%E5%AF%AB%E7%A8%8B%E5%BC%8F%E6%98%AF%E5%BB%BA%E6%A7%8B%E5%BC%8F%E7%9A%84/10153234361738601" target="_blank">2015年11月22日</a>
 
 
-.. |IMG1| image:: static/寫程式是建構式的_1.png
+.. |IMG1| image:: static/constructiveProgramming_1.png
    :height: 269 px
    :width: 697 px
