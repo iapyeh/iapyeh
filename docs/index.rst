@@ -2,17 +2,17 @@
 .. _h59707e3f225e512d211d26681a66105:
 
 Yeh Hsin Yuan | 葉信源 | Iap Sin Guan
-#####################################
+*************************************
 
 .. _h1a194a7421203013187902d456f7043:
 
 Google Docs Add-ons
-*******************
+===================
 
 .. _h1b6c443a5233512387c753466327d59:
 
 Text Factory
-============
+------------
 
 You can simply insert date/time or timestamp from the pulldown menu directly. For the selected text, you can add parentheses , add thousands separators to numbers, convert alphabetic case, and do characters conversion between half and full width form by mouse click on the buttons in sidebar. You can customize the date/time format to conform your culture convention.
 
@@ -21,7 +21,7 @@ You can simply insert date/time or timestamp from the pulldown menu directly. Fo
 .. _h28105e656d4d48041184d771d3b4a1a:
 
 GGeditor
-========
+--------
 
 GGeditor can generate content in reStructuredText format from your documents and commit it to your Github repository immediately. Then, that repository’s documentations hosted by the ReadTheDocs.org got automatically updated. Let you enjoy on writing not marking up!
 
@@ -30,12 +30,12 @@ GGeditor can generate content in reStructuredText format from your documents and
 .. _h2a471632472157b6d1d2062464b6cd:
 
 Blogs
-*****
+=====
 
 .. _h531e3ac621f10a57b27e3b254b3a:
 
 Technical
-=========
+---------
 
 * \ |LINK5|\ 
 
@@ -46,7 +46,7 @@ Technical
 .. _he34321c2d622d341b786c3324384e:
 
 Essay
-=====
+-----
 
 * \ |LINK8|\  (2017/2/12)
 
@@ -65,7 +65,7 @@ Essay
 .. _h6d307874835717394e3f1a464967c:
 
 Translation
-===========
+-----------
 
 * \ |LINK15|\  (2016/4/24)
 
