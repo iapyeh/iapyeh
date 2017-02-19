@@ -54,14 +54,16 @@ Essay
 
 * \ |LINK10|\  (2015/11/22)
 
-* \ |LINK11|\  (2015/4/9)
+* \ |LINK11|\  (2011/4/9)
+
+* \ |LINK12|\  (2011/2/2)
 
 .. _h6d307874835717394e3f1a464967c:
 
 Translation
 ===========
 
-* \ |LINK12|\  (2016/4/24)
+* \ |LINK13|\  (2016/4/24)
 
 .. bottom of content
 
@@ -111,6 +113,10 @@ Translation
     <a href="blogs/essay/brainyoga.html">軟體工程師的大腦瑜珈</a>
 
 .. |LINK12| raw:: html
+
+    <a href="blogs/essay/believescience.html">最不科學的事情就是相信科學</a>
+
+.. |LINK13| raw:: html
 
     <a href="blogs/translation/AProtocol4Dying.html">臨終協定(A Protocol for Dying by Pieter Hintjens)</a>
 
