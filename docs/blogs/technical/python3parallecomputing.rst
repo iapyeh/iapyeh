@@ -1378,150 +1378,150 @@ Script05的話約是44秒，而asyncio版本的Script07是38秒，已經有稍�
 
 .. bottom of content
 
-.. |IMG1| image:: static/Database_Processing_in_Parallel_with_Python3_1.png
+.. |IMG1| image:: static/python3parallecomputing_1.png
    :height: 138 px
    :width: 356 px
 
-.. |IMG2| image:: static/Database_Processing_in_Parallel_with_Python3_2.png
+.. |IMG2| image:: static/python3parallecomputing_2.png
    :height: 108 px
    :width: 697 px
 
-.. |IMG3| image:: static/Database_Processing_in_Parallel_with_Python3_2.png
+.. |IMG3| image:: static/python3parallecomputing_2.png
    :height: 108 px
    :width: 697 px
 
-.. |IMG4| image:: static/Database_Processing_in_Parallel_with_Python3_3.png
+.. |IMG4| image:: static/python3parallecomputing_3.png
    :height: 109 px
    :width: 697 px
 
-.. |IMG5| image:: static/Database_Processing_in_Parallel_with_Python3_4.png
+.. |IMG5| image:: static/python3parallecomputing_4.png
    :height: 108 px
    :width: 697 px
 
-.. |IMG6| image:: static/Database_Processing_in_Parallel_with_Python3_5.png
+.. |IMG6| image:: static/python3parallecomputing_5.png
    :height: 109 px
    :width: 697 px
 
-.. |IMG7| image:: static/Database_Processing_in_Parallel_with_Python3_6.png
+.. |IMG7| image:: static/python3parallecomputing_6.png
    :height: 96 px
    :width: 512 px
 
-.. |IMG8| image:: static/Database_Processing_in_Parallel_with_Python3_7.png
+.. |IMG8| image:: static/python3parallecomputing_7.png
    :height: 106 px
    :width: 697 px
 
-.. |IMG9| image:: static/Database_Processing_in_Parallel_with_Python3_8.png
+.. |IMG9| image:: static/python3parallecomputing_8.png
    :height: 434 px
    :width: 672 px
 
-.. |IMG10| image:: static/Database_Processing_in_Parallel_with_Python3_9.png
+.. |IMG10| image:: static/python3parallecomputing_9.png
    :height: 110 px
    :width: 404 px
 
-.. |IMG11| image:: static/Database_Processing_in_Parallel_with_Python3_10.png
+.. |IMG11| image:: static/python3parallecomputing_10.png
    :height: 150 px
    :width: 404 px
 
-.. |IMG12| image:: static/Database_Processing_in_Parallel_with_Python3_11.png
+.. |IMG12| image:: static/python3parallecomputing_11.png
    :height: 109 px
    :width: 697 px
 
-.. |IMG13| image:: static/Database_Processing_in_Parallel_with_Python3_12.png
+.. |IMG13| image:: static/python3parallecomputing_12.png
    :height: 105 px
    :width: 697 px
 
-.. |IMG14| image:: static/Database_Processing_in_Parallel_with_Python3_13.png
+.. |IMG14| image:: static/python3parallecomputing_13.png
    :height: 432 px
    :width: 664 px
 
-.. |IMG15| image:: static/Database_Processing_in_Parallel_with_Python3_14.png
+.. |IMG15| image:: static/python3parallecomputing_14.png
    :height: 136 px
    :width: 420 px
 
-.. |IMG16| image:: static/Database_Processing_in_Parallel_with_Python3_15.png
+.. |IMG16| image:: static/python3parallecomputing_15.png
    :height: 108 px
    :width: 697 px
 
-.. |IMG17| image:: static/Database_Processing_in_Parallel_with_Python3_16.png
+.. |IMG17| image:: static/python3parallecomputing_16.png
    :height: 122 px
    :width: 697 px
 
-.. |IMG18| image:: static/Database_Processing_in_Parallel_with_Python3_17.png
+.. |IMG18| image:: static/python3parallecomputing_17.png
    :height: 121 px
    :width: 697 px
 
-.. |IMG19| image:: static/Database_Processing_in_Parallel_with_Python3_18.png
+.. |IMG19| image:: static/python3parallecomputing_18.png
    :height: 124 px
    :width: 697 px
 
-.. |IMG20| image:: static/Database_Processing_in_Parallel_with_Python3_19.png
+.. |IMG20| image:: static/python3parallecomputing_19.png
    :height: 385 px
    :width: 697 px
 
-.. |IMG21| image:: static/Database_Processing_in_Parallel_with_Python3_20.png
+.. |IMG21| image:: static/python3parallecomputing_20.png
    :height: 197 px
    :width: 697 px
 
-.. |IMG22| image:: static/Database_Processing_in_Parallel_with_Python3_21.png
+.. |IMG22| image:: static/python3parallecomputing_21.png
    :height: 212 px
    :width: 697 px
 
-.. |IMG23| image:: static/Database_Processing_in_Parallel_with_Python3_22.png
+.. |IMG23| image:: static/python3parallecomputing_22.png
    :height: 228 px
    :width: 572 px
 
-.. |IMG24| image:: static/Database_Processing_in_Parallel_with_Python3_23.png
+.. |IMG24| image:: static/python3parallecomputing_23.png
    :height: 192 px
    :width: 433 px
 
-.. |IMG25| image:: static/Database_Processing_in_Parallel_with_Python3_24.png
+.. |IMG25| image:: static/python3parallecomputing_24.png
    :height: 70 px
    :width: 301 px
 
-.. |IMG26| image:: static/Database_Processing_in_Parallel_with_Python3_25.png
+.. |IMG26| image:: static/python3parallecomputing_25.png
    :height: 228 px
    :width: 580 px
 
-.. |IMG27| image:: static/Database_Processing_in_Parallel_with_Python3_26.png
+.. |IMG27| image:: static/python3parallecomputing_26.png
    :height: 144 px
    :width: 572 px
 
-.. |IMG28| image:: static/Database_Processing_in_Parallel_with_Python3_27.png
+.. |IMG28| image:: static/python3parallecomputing_27.png
    :height: 144 px
    :width: 568 px
 
-.. |IMG29| image:: static/Database_Processing_in_Parallel_with_Python3_28.png
+.. |IMG29| image:: static/python3parallecomputing_28.png
    :height: 105 px
    :width: 446 px
 
-.. |IMG30| image:: static/Database_Processing_in_Parallel_with_Python3_29.png
+.. |IMG30| image:: static/python3parallecomputing_29.png
    :height: 316 px
    :width: 668 px
 
-.. |IMG31| image:: static/Database_Processing_in_Parallel_with_Python3_30.png
+.. |IMG31| image:: static/python3parallecomputing_30.png
    :height: 141 px
    :width: 568 px
 
-.. |IMG32| image:: static/Database_Processing_in_Parallel_with_Python3_31.png
+.. |IMG32| image:: static/python3parallecomputing_31.png
    :height: 314 px
    :width: 445 px
 
-.. |IMG33| image:: static/Database_Processing_in_Parallel_with_Python3_32.png
+.. |IMG33| image:: static/python3parallecomputing_32.png
    :height: 157 px
    :width: 697 px
 
-.. |IMG34| image:: static/Database_Processing_in_Parallel_with_Python3_33.png
+.. |IMG34| image:: static/python3parallecomputing_33.png
    :height: 101 px
    :width: 608 px
 
-.. |IMG35| image:: static/Database_Processing_in_Parallel_with_Python3_34.png
+.. |IMG35| image:: static/python3parallecomputing_34.png
    :height: 418 px
    :width: 648 px
 
-.. |IMG36| image:: static/Database_Processing_in_Parallel_with_Python3_35.png
+.. |IMG36| image:: static/python3parallecomputing_35.png
    :height: 200 px
    :width: 496 px
 
-.. |IMG37| image:: static/Database_Processing_in_Parallel_with_Python3_36.png
+.. |IMG37| image:: static/python3parallecomputing_36.png
    :height: 284 px
    :width: 454 px
