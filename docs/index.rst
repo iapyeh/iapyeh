@@ -27,6 +27,20 @@ GGeditor can generate content in reStructuredText format from your documents and
 
 [\ |LINK3|\ ] [\ |LINK4|\ ]
 
+.. _h2a317c445952767a80272d485671154b:
+
+Chrome Extensions
+=================
+
+.. _h4130661e431c4b2966a564e7520615f:
+
+I. F. Add-on
+------------
+
+A helper extension for for IPA Furigana Extension.
+
+[\ |LINK5|\  (in Tranditional Chinese) ]
+
 .. _h2a471632472157b6d1d2062464b6cd:
 
 Blogs
@@ -37,37 +51,37 @@ Blogs
 Technical
 ---------
 
-* \ |LINK5|\ 
+* \ |LINK6|\ 
 
-* \ |LINK6|\  
+* \ |LINK7|\  
 
-* \ |LINK7|\ 
+* \ |LINK8|\ 
 
 .. _he34321c2d622d341b786c3324384e:
 
 Essay
 -----
 
-* \ |LINK8|\  (2017/2/12)
+* \ |LINK9|\  (2017/2/12)
 
-* \ |LINK9|\  (2015/12/12)
+* \ |LINK10|\  (2015/12/12)
 
-* \ |LINK10|\  (2015/11/22)
+* \ |LINK11|\  (2015/11/22)
 
-* \ |LINK11|\  (2011/4/9)
+* \ |LINK12|\  (2011/4/9)
 
-* \ |LINK12|\  (2011/2/2)
+* \ |LINK13|\  (2011/2/2)
 
-* \ |LINK13|\  (2010/12/25)
+* \ |LINK14|\  (2010/12/25)
 
-* \ |LINK14|\  (2010/12/4)
+* \ |LINK15|\  (2010/12/4)
 
 .. _h6d307874835717394e3f1a464967c:
 
 Translation
 -----------
 
-* \ |LINK15|\  (2016/4/24)
+* \ |LINK16|\  (2016/4/24)
 
 .. bottom of content
 
@@ -90,45 +104,49 @@ Translation
 
 .. |LINK5| raw:: html
 
-    <a href="blogs/technical/how2pydocs.html">如何寫Python文件</a>
+    <a href="blogs/myworks/I.F.Add-on.html">Introduction and installation</a>
 
 .. |LINK6| raw:: html
 
-    <a href="blogs/technical/VirtualenvProblem.html">在中文目錄建立virtualenv 的問題</a>
+    <a href="blogs/technical/how2pydocs.html">如何寫Python文件</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://goo.gl/qH1WWj" target="_blank">Tutorial - 從零開始建立一個RTD文件網站</a>
+    <a href="blogs/technical/VirtualenvProblem.html">在中文目錄建立virtualenv 的問題</a>
 
 .. |LINK8| raw:: html
 
-    <a href="blogs/MontyHallProblem.html">蒙提霍爾問題</a>
+    <a href="https://goo.gl/qH1WWj" target="_blank">Tutorial - 從零開始建立一個RTD文件網站</a>
 
 .. |LINK9| raw:: html
 
-    <a href="blogs/LetsEncrypt.html">Let’s Encrypt 是社會運動</a>
+    <a href="blogs/MontyHallProblem.html">蒙提霍爾問題</a>
 
 .. |LINK10| raw:: html
 
-    <a href="blogs/essay/constructiveProgramming.html">寫程式是建構式的</a>
+    <a href="blogs/LetsEncrypt.html">Let’s Encrypt 是社會運動</a>
 
 .. |LINK11| raw:: html
 
-    <a href="blogs/essay/brainyoga.html">軟體工程師的大腦瑜珈</a>
+    <a href="blogs/essay/constructiveProgramming.html">寫程式是建構式的</a>
 
 .. |LINK12| raw:: html
 
-    <a href="blogs/essay/believescience.html">最不科學的事情就是相信科學</a>
+    <a href="blogs/essay/brainyoga.html">軟體工程師的大腦瑜珈</a>
 
 .. |LINK13| raw:: html
 
-    <a href="blogs/essay/hasghost.html">真的有鬼</a>
+    <a href="blogs/essay/believescience.html">最不科學的事情就是相信科學</a>
 
 .. |LINK14| raw:: html
 
-    <a href="blogs/essay/switch2mac.html">改用Mac 二三事</a>
+    <a href="blogs/essay/hasghost.html">真的有鬼</a>
 
 .. |LINK15| raw:: html
+
+    <a href="blogs/essay/switch2mac.html">改用Mac 二三事</a>
+
+.. |LINK16| raw:: html
 
     <a href="blogs/translation/AProtocol4Dying.html">臨終協定(A Protocol for Dying by Pieter Hintjens)</a>
 
