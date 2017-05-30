@@ -4,7 +4,7 @@
 \ |IMG1|\ FuriKanji
 *******************
 
-這是幫助日文學習的Chrome擴充功能（外掛）。使用FuriKanji可以知道日文漢字(Kanji)的讀音(振り仮名；Furigana)，只要滑鼠在漢字上點一下，就會連結到辞書上查詢該漢字。
+這是幫助日文學習的Chrome擴充功能（外掛）。使用FuriKanji可以知道日文漢字(Kanji)的注音(振り仮名；Furigana)，只要滑鼠在漢字上點一下，就會連結到辞書上查詢該漢字。
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -15,7 +15,7 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 
 #. 它雖然有發音，但是日文漢字上沒有注音(Furigana)。
 
-#. 如果漢字上已經有注音，它無法正確選取要翻譯的內文。
+#. 如果漢字上已經有注音，因無法正確選取，導致翻譯的結果不準確。
 
 #. 它無法連結與辞書查詢作連結。
 
@@ -28,33 +28,31 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 
 為了解決上述的問題，於是有了FuriKanji，FuriKanji的功能設計是從學習日文者的角度出發的。FuriKanji跟其他能顯示Furigana的Chrome外掛不同之處是以下的特點：
 
-* 顯示使用者所選擇的日文漢字的讀音(Furigana)。
-
-    * 有別於「IPA Furigana外掛」是顯示網頁上全部日文漢字的讀音，FuriKanji只顯示使用者圈選的文字。這樣可以改善顯示速度，尤其是遇到像是Facebook這種很長很長的網頁時，或者遇到中日文夾雜的網頁時，常常我們只需要顯示部份的漢字讀音。
-
-    * FuriKanji也能顯示在輸入欄位(input, textarea)所選擇的日文漢字。
-
-* 在網頁下方顯示讀音，不影響原始內文。
-
-    * 在內文上的Furigana會導致使用者無法選取該段文字，影響「複製」功能，而且會導致「Google 翻譯外掛」錯誤解讀所要翻譯的文字內容。
-
-* 自動產生漢字查詢連結。
-
-    * 使用者點選顯示Furigana的漢字，會直接連結到辞書網站的查詢頁面。
-
-    * 目前有五個辞書網站可以選擇：ふりがな文庫、Goo、Nifty、Weblio及Yahoo。歡迎提供其他建議。
-
 * 在「Google 翻譯外掛」彈跳出來的顯示視窗上的日文漢字也能顯示Furigana
 
     * 「Google 翻譯外掛」是一個很棒的外掛，可以知道發音跟意義，對學習日文很有幫助。
 
     * 但是「Google 翻譯外掛」彈跳出來的顯示視窗上的日文漢字沒有Furigana。FuriKanji改善了這個問題，使用FuriKanji之後，「Google 翻譯外掛」彈跳出來的顯示視窗上的漢字就會有讀音，並且滑鼠一點就可以查字典。
 
-* FuriKanji也是一種Furigana的開關。
+* 顯示使用者所選擇的日文漢字的注音。
 
-    * 有些網站本來就有Furigana，但是這些Furigana一樣會導致「Google 翻譯外掛」錯誤解讀所要翻譯的文字內容。FuriKanji會將網站上的Furigana暫時隱藏起來，讓使用者圈選不到，這樣就可以回復原有的文字複製功能，也能讓「Google 翻譯外掛」正常運作。
+    * 有別於「IPA Furigana外掛」是顯示網頁上全部日文漢字的注音，FuriKanji只顯示使用者圈選的文字。這樣可以改善顯示速度，尤其是遇到像是Facebook這種很長很長的網頁時，或者遇到中日文夾雜的網頁時，常常我們只需要顯示部份的漢字注音。
 
-    * 隱藏之後使用者可以用滑鼠靠近漢字來顯示該漢字的讀音。
+    * 對於在輸入欄位(input, textarea)所選取的日文漢字也有作用。
+
+* 連結辞書網站。
+
+    * 使用者點選漢字，會直接連結到辞書網站的查詢頁面。
+
+    * 目前有五個辞書網站可以選擇：ふりがな文庫、Goo、Nifty、Weblio及Yahoo。
+
+* 讓日文注音可以開關
+
+    * 有些網站本來就有Furigana，或者是使用「IPA Furigana外掛」這一類外掛替漢字加上注音之後，然而這些日文注音會導致「Google 翻譯外掛」錯誤解讀所要翻譯的文字內容。FuriKanji會將網站上的Furigana暫時隱藏起來，讓使用者可以圈選原本的日文漢字，使得「Google 翻譯外掛」可以翻譯正確的內容。
+
+    * 隱藏之後使用者可以用滑鼠靠近漢字來顯示該漢字的注音。
+
+    * 使用者也可以透過這個功能測試自己是否在沒注音時也能正確讀出漢字。
 
 .. _h1634483c7822441972316c7301545:
 
@@ -78,29 +76,31 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 
     * 為了使用方便，載入.jp的網址時FuriKanji會自動開啟。
 
-* 標注Furigana
+* 標注音（沒有安裝「Google翻譯外掛」時）
 
     * 把要標注的漢字選起來像這樣\ |IMG4|\ 
 
-    * 頁面下方會顯示 \ |IMG5|\ 
+    * 如果使用者，則FuriKanji會在網頁下方顯示自帶的顯示區： \ |IMG5|\ 
 
-    * 取消圈選文字三秒之後下方的Furigana顯示版會自動消失。或者點選顯示板右上方的關閉按鈕。
+    * 取消圈選文字三秒之後下方的顯示區會自動消失。
 
-* 與Google翻譯外掛合用時
+* 標注音（有安裝「Google翻譯外掛」時）
 
     * 把要標注的漢字選起來會像這樣\ |IMG6|\ 
 
-    * 按下圈選區下方的圖示後會顯示這樣\ |IMG7|\ 。請注意，必須是Google翻譯外掛上顯示「日文」的文字才會進行Furigana的標注。
+    * 點一下圈選區右下方的小圖示後，「Google翻譯外掛」就會顯示注音，如下圖：\ |IMG7|\ 。
+
+    * 請注意，必須是Google翻譯外掛上顯示「日文」的文字才會進行Furigana的標注。
 
 * 辞書查詢
 
-    * 將滑鼠移到有Furigana標注的漢字上方後，點選該漢字就可以開啟查詢頁面。
+    * 將滑鼠移到有注音的漢字上方後，點選該漢字就可以開啟查詢頁面。
 
     * \ |IMG8|\ 
 
-    * FuriKanji預設的查詢的辞書是 「ふりがな文庫」。這個網站是Furigana的專門網站，速度快，而且沒有廣告，是很棒的網站。
+    * FuriKanji預設的查詢的辞書是 「ふりがな文庫」。這個網站是Furigana的專門網站，內容豐富，速度快又沒有廣告，是學習ふりがな很棒的網站。
 
-    * 切換到其他辞書的按鈕會顯示在查詢網站的「查詢」按鈕旁邊。按下綠色按鈕後點選辞書名稱即可。\ |IMG9|\ 
+    * 綠色的\ |IMG9|\ 小圖是用來切換到其他辞書查詢的按鈕，它會顯示在辞書原有的「查詢按鈕」右邊。按下這一個按鈕後點選辞書名稱即可連結到該辞書網站。
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -114,26 +114,28 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 測試網站
 ========
 
-* \ |LINK3|\  。這是NHK News的簡易版，漢字已經有furigana的網站，不需使用IPA Furigana這一類外掛，缺點是無法與Google 翻譯外掛一起使用，因為選擇要翻譯的文字時會連同Furigana一起，造成Google 翻譯外掛的混淆。使用本外掛之後，可以解決這個問題。
+* \ |LINK3|\  。NHK News網站。可以測試FuriKanji加持後，有日文注音的「Google 翻譯外掛」。
 
-* \ |LINK4|\  。這是NHK News網站。需使用IPA Furigana這一類的外掛才會有漢字讀音。或者使用Google 翻譯外掛。如果是使用IPA Furigana會遇到與\ |LINK5|\ 相同的問題，如果是使用Google 翻譯外掛，會遇到Google 翻譯外掛沒有提供Furigana的問題。使用本外掛之後，這兩個問題都可以解決。
+* \ |LINK4|\  。這是NHK News的簡易版，漢字已經有注音。因為無法正確選擇要翻譯的文字，Google 翻譯外掛的混淆。可以測試FuriKanji暫時「關閉」注音的功能。
 
-* Facebook
+* NHK School 。這是NHK的兒童教育網站。很多利用子視窗顯示的影片，可以測試FuriKanji在子視窗運行的能力。
+
+* \ |LINK5|\  上的日文貼文可以用來測試FuriKanji的功能。
 
 .. _h572187820253c7294643631303029:
 
 技術性特點
 ==========
 
-* 節省資源
+* 節省系統資源
 
-    * FuriKanji是一種開關型的外掛，當使用者在網頁上啟動之後才會運作。其他像是「Google 翻譯外掛」是所有網頁都會自動運作，這樣會讓Chrome瀏覽器消耗比較多的系統資源。使用者可以需要的時候才開啟FuriKanji，並且在不需要的時候關閉它。
+    * 很多外掛，像是「Google 翻譯外掛」會在使用者瀏覽所有網頁自動運行，使得Chrome消耗比較多的系統資源。FuriKanji是一種開關型的外掛，在網頁上手動啟動之後只會在該網頁上運行。使用者可以需要的時候才開啟FuriKanji，並且在不需要的時候關閉它。
 
-    * 當使用者離開Chrome，切換到其他應用程式(例如Word)，或者切換到其他網頁（例如Google)，也就是FuriKanji所運作的視窗(frame)失去使用者的焦點(focus)時，FuriKanji會暫時停止運作。這也是為了替Chrome節省系統資源而設計的功能。
+    * 當使用者暫時離開Chrome，切換到其他應用程式(例如Word)，或者切換到其他分頁時，FuriKanji所運行的視框(frame)不再是使用者的焦點(focus)時，FuriKanji會自動暫停以節省系統資源。
 
-* 子網頁(iframe)內仍可運作
+* 子網頁(inner-frame)內仍可作用
 
-    * 子網頁inner-frame是包在主網頁內的網頁，很多外掛無法在子網頁內正常運作，因為這些子網頁經常會有動態創建與消滅的情況，結構上與主網頁有區別。FuriKanji可以在子網頁內正常運作。
+    * 子網頁是包在主網頁內的網頁，這些子網頁經常會有動態創建與消滅的情況，很多外掛無法在子網頁內運作。FuriKanji具備在子網頁內正常運作的能力。
 
     * 小於500x500的子網頁，FuriKanji視為廣告性子網頁，FuriKanji不會運作。
 
@@ -146,14 +148,25 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 
 * Google 翻譯外掛有時會將日文判斷為中文，需手動調整。
 
-* 本外掛發音受到Google TTL的限制，每日有限額，超過之後會無法發聲。
+* 本外掛自帶的發音受到Google TTL的限制，每日有限額，超過之後會無法發聲。
+
+.. _h174fb648377959437b5c1f697c1c40:
+
+回報問題
+========
+
+您可以利用「Facebook訊息」將訊息傳給\ |LINK6|\ 
 
 .. _h1634483c7822441972316c7301545:
 
 致謝
 ====
 
-* https://github.com/hexenq/kuroshiro.js
+* \ |LINK7|\ 功能
+
+* \ |LINK8|\  這是一個專門介紹Furigana內容很棒的網站，感謝他們的用心與努力
+
+* \ |LINK9|\  提供自學者非常豐富的學材料
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -168,9 +181,9 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 |         |                                                                                                          |
 |         |* 從I.F. Add-on改名為FuriKanji                                                                            |
 +---------+----------------------------------------------------------------------------------------------------------+
-|1.17.5.26|讓\ |LINK6|\ 可與Google翻譯外掛一起使用。                                                                 |
+|1.17.5.26|讓\ |LINK10|\ 可與Google翻譯外掛一起使用。                                                                |
 +---------+----------------------------------------------------------------------------------------------------------+
-|1.0      |2017/1/26 首次發布是一個\ |LINK7|\                                                                        |
+|1.0      |2017/1/26 首次發布是一個\ |LINK11|\                                                                       |
 +---------+----------------------------------------------------------------------------------------------------------+
 
 
@@ -187,21 +200,37 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 
 .. |LINK3| raw:: html
 
-    <a href="http://www3.nhk.or.jp/news/easy/index.html" target="_blank">NHK Web News Easy</a>
+    <a href="http://www3.nhk.or.jp/" target="_blank">NHK Web News</a>
 
 .. |LINK4| raw:: html
 
-    <a href="http://www3.nhk.or.jp/" target="_blank">NHK Web News</a>
+    <a href="http://www3.nhk.or.jp/news/easy/index.html" target="_blank">NHK Web News Easy</a>
 
 .. |LINK5| raw:: html
 
-    <a href="http://www3.nhk.or.jp/news/easy/index.html" target="_blank">NHK Web News Easy</a>
+    <a href="https://www.facebook.com" target="_blank">Facebook</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 外掛</a>
+    <a href="https://www.facebook.com/singuan.iap" target="_blank">這個帳號</a>
 
 .. |LINK7| raw:: html
+
+    <a href="https://www.npmjs.com/package/kuroshiro" target="_blank">FuriKanji使用KuroShiro的Furigana API提供Furigana</a>
+
+.. |LINK8| raw:: html
+
+    <a href="https://furigana.info" target="_blank">ふりがな文庫</a>
+
+.. |LINK9| raw:: html
+
+    <a href="http://www3.nhk.or.jp/" target="_blank">NHK</a>
+
+.. |LINK10| raw:: html
+
+    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 外掛</a>
+
+.. |LINK11| raw:: html
 
     <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana外掛的patch</a>
 
@@ -238,6 +267,10 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
    :height: 98 px
    :width: 300 px
 
-.. |IMG9| image:: static/I_F_Add-on_9.png
+.. |IMG9| image:: static/I_F_Add-on_1.png
+   :height: 20 px
+   :width: 20 px
+
+.. |IMG10| image:: static/I_F_Add-on_9.png
    :height: 224 px
    :width: 348 px
