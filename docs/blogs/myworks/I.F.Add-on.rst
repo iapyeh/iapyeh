@@ -113,7 +113,9 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 
 * 如果Google翻譯外掛把日文當中文，請按下右邊的「漢字よ」按鈕修改成日文。
 
-* \ |IMG8|\ 
+* \ |IMG8|\ ，然後就會有注音了，像這樣：
+
+* \ |IMG9|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -122,13 +124,13 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
 
 * 將滑鼠移到有注音的漢字上方後，點選該漢字就可以開啟查詢頁面。
 
-* \ |IMG9|\ 
+* \ |IMG10|\ 
 
 * FuriKanji預設的查詢的辞書是 「ふりがな文庫」。這個網站是Furigana的專門網站，內容豐富，速度快又沒有廣告，是學習ふりがな很棒的網站。
 
-* 綠色的\ |IMG10|\ 小圖是用來切換到其他辞書查詢的按鈕，它會顯示在辞書原有的「查詢按鈕」右邊。按下這一個按鈕後點選辞書名稱即可連結到該辞書網站。
+* 綠色的\ |IMG11|\ 小圖是用來切換到其他辞書查詢的按鈕，它會顯示在辞書原有的「查詢按鈕」右邊。按下這一個按鈕後點選辞書名稱即可連結到該辞書網站。
 
-* \ |IMG11|\ 
+* \ |IMG12|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -296,13 +298,17 @@ FuriKanji是為了解決開發者本身在網路上自學日文中會遇到的�
    :width: 238 px
 
 .. |IMG9| image:: static/I_F_Add-on_9.png
+   :height: 97 px
+   :width: 233 px
+
+.. |IMG10| image:: static/I_F_Add-on_10.png
    :height: 98 px
    :width: 300 px
 
-.. |IMG10| image:: static/I_F_Add-on_1.png
+.. |IMG11| image:: static/I_F_Add-on_1.png
    :height: 20 px
    :width: 20 px
 
-.. |IMG11| image:: static/I_F_Add-on_10.png
+.. |IMG12| image:: static/I_F_Add-on_11.png
    :height: 224 px
    :width: 348 px
