@@ -1,8 +1,8 @@
 
-.. _h1419777c3c3c80315a6f167d3e326d5d:
+.. _h3942e173f1332963f187c606e6c:
 
-∑ FuriKanji
-***********
+\ |IMG1|\ FuriKanji
+*******************
 
 這個Chrome擴充功能（外掛）是幫助學習日文的工具。FuriKanji可以顯示網頁上日文漢字(Kanji)的讀音(振り仮名；Furigana)。也有其他外掛可以顯示讀音，然而FuriKanji跟其他外掛不同的地方是，FuriKanji是從學習日文的角度出發的。FuriKanji的開發者也是日文學習者，FuriKanji是為了解決日文學習上實際遇到的困難，尤其是考慮到日文學習者通常與「Google翻譯外掛」一起使用的環境，以及學習者也想要查詢該漢字意義的需求。
 
@@ -51,11 +51,11 @@
 使用要領
 ========
 
-* 開啟與關閉：每一個網頁都可單獨開啟或關閉FuriKanji的功能
+* 啟動與關閉：每一個網頁都可單獨開啟或關閉FuriKanji的功能
 
-    * 關閉狀態是藍色小圖\ |IMG1|\ ，點一下就會啟動
+    * 關閉狀態是藍色小圖\ |IMG2|\ ，此時點一下藍色小圖就會啟動
 
-    * 開啟狀態是紅色小圖\ |IMG2|\ ，點一下就會關閉
+    * 開啟狀態是紅色小圖\ |IMG3|\ ，此時點一下紅色小圖就會關閉
 
     * 在同一個網頁上可以開啟又關閉，關閉又開始。
 
@@ -63,27 +63,27 @@
 
 * 標注Furigana
 
-    * 把要標注的漢字選起來像這樣\ |IMG3|\ 
+    * 把要標注的漢字選起來像這樣\ |IMG4|\ 
 
-    * 頁面下方會顯示 \ |IMG4|\ 
+    * 頁面下方會顯示 \ |IMG5|\ 
 
     * 取消圈選文字三秒之後下方的Furigana顯示版會自動消失。或者點選顯示板右上方的關閉按鈕。
 
 * 與Google翻譯外掛合用時
 
-    * 把要標注的漢字選起來會像這樣\ |IMG5|\ 
+    * 把要標注的漢字選起來會像這樣\ |IMG6|\ 
 
-    * 按下圈選區下方的圖示後會顯示這樣\ |IMG6|\ 。請注意，必須是Google翻譯外掛上顯示「日文」的文字才會進行Furigana的標注。
+    * 按下圈選區下方的圖示後會顯示這樣\ |IMG7|\ 。請注意，必須是Google翻譯外掛上顯示「日文」的文字才會進行Furigana的標注。
 
 * 辞書查詢
 
     * 將滑鼠移到有Furigana標注的漢字上方後，點選該漢字就可以開啟查詢頁面。
 
-    * \ |IMG7|\ 
+    * \ |IMG8|\ 
 
     * FuriKanji預設的查詢的辞書是 「ふりがな文庫」。這個網站是Furigana的專門網站，速度快，而且沒有廣告，是很棒的網站。
 
-    * 切換到其他辞書的按鈕會顯示在查詢網站的「查詢」按鈕旁邊。按下綠色按鈕後點選辞書名稱即可。\ |IMG8|\ 
+    * 切換到其他辞書的按鈕會顯示在查詢網站的「查詢」按鈕旁邊。按下綠色按鈕後點選辞書名稱即可。\ |IMG9|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -190,33 +190,37 @@
 
 
 .. |IMG1| image:: static/I_F_Add-on_1.png
+   :height: 29 px
+   :width: 29 px
+
+.. |IMG2| image:: static/I_F_Add-on_2.png
    :height: 34 px
    :width: 50 px
 
-.. |IMG2| image:: static/I_F_Add-on_2.png
+.. |IMG3| image:: static/I_F_Add-on_3.png
    :height: 33 px
    :width: 56 px
 
-.. |IMG3| image:: static/I_F_Add-on_3.png
+.. |IMG4| image:: static/I_F_Add-on_4.png
    :height: 44 px
    :width: 388 px
 
-.. |IMG4| image:: static/I_F_Add-on_4.png
+.. |IMG5| image:: static/I_F_Add-on_5.png
    :height: 60 px
    :width: 228 px
 
-.. |IMG5| image:: static/I_F_Add-on_5.png
+.. |IMG6| image:: static/I_F_Add-on_6.png
    :height: 64 px
    :width: 390 px
 
-.. |IMG6| image:: static/I_F_Add-on_6.png
+.. |IMG7| image:: static/I_F_Add-on_7.png
    :height: 144 px
    :width: 296 px
 
-.. |IMG7| image:: static/I_F_Add-on_7.png
+.. |IMG8| image:: static/I_F_Add-on_8.png
    :height: 98 px
    :width: 300 px
 
-.. |IMG8| image:: static/I_F_Add-on_8.png
+.. |IMG9| image:: static/I_F_Add-on_9.png
    :height: 224 px
    :width: 348 px
