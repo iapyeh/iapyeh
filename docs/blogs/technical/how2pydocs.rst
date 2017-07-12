@@ -295,7 +295,6 @@ GGeditor還有一個用途是它可以同時用來產生專案文件與API文件
 
 附註二：從2017年1月15日起，GGeditor的新版本支持把表格轉成HTML的功能，表格的rowspan, colspan，顏色都可以更精準的轉換到RTD的網頁上。
 
-\ |IMG12|\ 
 
 .. bottom of content
 
@@ -451,8 +450,4 @@ GGeditor還有一個用途是它可以同時用來產生專案文件與API文件
 
 .. |IMG11| image:: static/how2pydocs_11.png
    :height: 150 px
-   :width: 697 px
-
-.. |IMG12| image:: static/how2pydocs_12.png
-   :height: 569 px
    :width: 697 px
