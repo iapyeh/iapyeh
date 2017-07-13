@@ -199,13 +199,6 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 .. _h174fb648377959437b5c1f697c1c40:
 
-回報問題
-========
-
-您可以利用「Facebook訊息」將訊息傳給\ |LINK6|\ 
-
-.. _h174fb648377959437b5c1f697c1c40:
-
 改版紀錄
 ========
 
@@ -217,12 +210,12 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 |         |                                                                                                              |
 |         |* 從I.F. Add-on改名為 FuriKanji                                                                               |
 +---------+--------------------------------------------------------------------------------------------------------------+
-|1.17.5.26|讓\ |LINK7|\ 可與Google翻譯擴充功能一起使用。                                                                 |
+|1.17.5.26|讓\ |LINK6|\ 可與Google翻譯擴充功能一起使用。                                                                 |
 +---------+--------------------------------------------------------------------------------------------------------------+
-|1.0      |2017/1/26 首次發布，名稱為「I.F. Add-on」，是一個\ |LINK8|\                                                   |
+|1.0      |2017/1/26 首次發布，名稱為「I.F. Add-on」，是一個\ |LINK7|\                                                   |
 +---------+--------------------------------------------------------------------------------------------------------------+
 
-\ |LINK9|\ 
+\ |LINK8|\ 
 
 .. bottom of content
 
@@ -256,17 +249,13 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 .. |LINK6| raw:: html
 
-    <a href="https://www.facebook.com/singuan.iap" target="_blank">這個帳號</a>
+    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 擴充功能</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 擴充功能</a>
-
-.. |LINK8| raw:: html
-
     <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana擴充功能的patch</a>
 
-.. |LINK9| raw:: html
+.. |LINK8| raw:: html
 
     <a href="https://docs.google.com/document/d/1X6sOdxpKFERm49a07BU4QFOuZeqDuWjNfdJWXU7VKrI/edit" target="_blank">本文件原始檔案</a>
 
@@ -284,8 +273,8 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
    :width: 238 px
 
 .. |IMG4| image:: static/I_F_Add-on_4.png
-   :height: 97 px
-   :width: 233 px
+   :height: 100 px
+   :width: 238 px
 
 .. |IMG5| image:: static/I_F_Add-on_5.png
    :height: 29 px
