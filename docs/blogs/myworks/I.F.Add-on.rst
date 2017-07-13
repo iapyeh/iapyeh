@@ -237,7 +237,7 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     <script language="javascript">
     document.querySelectorAll('a').forEach(function(a){
-        if (a.getAttribute('href').indexOf('youtube')>0){
+        if (a.href=='https://youtu.be/5wwFgygTmVs'){
             a.setAttribute('target','_blank');
         }
     })
