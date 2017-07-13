@@ -47,14 +47,14 @@ Facebook是日文學習的一個很豐富的來源。例如訂閱日文的相關
 與NHK School 整合
 =================
 
-NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無法在內嵌網頁內運作，「FuriKanji擴充功能」因此無法替NHK School影片說明內的漢字標注音，「FuriKanji擴充功能」特別為解決此問題而開發了在內嵌網頁也能運作的功能。
+NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無法在內嵌網頁內運作，「FuriKanji擴充功能」因此無法替NHK School影片說明內的漢字標注音，「FuriKanji擴充功能」特別為解決此問題而開發了在內嵌網頁也能運作的功能。（尺寸小於500x500的內嵌網頁或隱藏性內嵌網頁，「FuriKanji擴充功能」視為廣告性內嵌網頁不會在廣告性內嵌網頁內運作。）
 
 .. _h1a723e4563621513a2d70487835277:
 
 與Jisho網站整合
 ===============
 
-Jisho是一個很棒的網站，但是這個網站標注音的方式使用與其他網站標注音不一樣的方式，導致其他標注音的擴充功能無法在此網站正常運作，尤其是「Google 翻譯擴充功能」也會因為無法正確圈選到所要翻譯的日文而無法正常運作。「FuriKanji擴充功能」特別為Jisho網站客製解決這些問題的功能。
+\ |LINK1|\ 是一個很棒的線上辞書網站，但是這個網站標注音的方式使用與其他網站標注音不一樣的方式，導致其他標注音的擴充功能無法在此網站正常運作，而且「Google 翻譯擴充功能」也會因為無法正確圈選到所要翻譯的日文而無法正常運作。「FuriKanji擴充功能」特別為Jisho網站客製化以解決這些問題。
 
 .. _h2164242e4c6048506f23311549231654:
 
@@ -107,9 +107,9 @@ Jisho是一個很棒的網站，但是這個網站標注音的方式使用與其
 安裝方式
 ========
 
-* 請用Chrome點選開啟： \ |LINK1|\ 
+* 請用Chrome點選開啟： \ |LINK2|\ 
 
-* 請用Chrome點選開啟：\ |LINK2|\  （如果已經安裝請忽略）
+* 請用Chrome點選開啟：\ |LINK3|\  （如果已經安裝請忽略）
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -172,31 +172,23 @@ Jisho是一個很棒的網站，但是這個網站標注音的方式使用與其
 
 \ |IMG12|\ 
 
-.. _h572187820253c7294643631303029:
+.. _h2164242e4c6048506f23311549231654:
 
-技術性特點
-==========
+節省系統資源
+============
 
-* 節省系統資源
+很多擴充功能，像是「Google 翻譯擴充功能」會在使用者瀏覽所有網頁自動運行，使得Chrome消耗比較多的系統資源。FuriKanji是一種開關型的擴充功能，在網頁上手動啟動之後只會在該網頁上運行。使用者可以需要的時候才開啟FuriKanji，並且在不需要的時候關閉它。
 
-    * 很多擴充功能，像是「Google 翻譯擴充功能」會在使用者瀏覽所有網頁自動運行，使得Chrome消耗比較多的系統資源。FuriKanji是一種開關型的擴充功能，在網頁上手動啟動之後只會在該網頁上運行。使用者可以需要的時候才開啟FuriKanji，並且在不需要的時候關閉它。
-
-    * 當使用者暫時離開Chrome，切換到其他應用程式(例如Word)，或者切換到其他分頁時，FuriKanji所運行的視框(frame)不再是使用者的焦點(focus)時，FuriKanji會自動暫停以節省系統資源。
-
-* 子網頁(inner-frame)內仍可作用
-
-    * 內嵌網頁是包在主網頁內的網頁，這些內嵌網頁經常會有動態創建與消滅的情況，很多擴充功能無法在內嵌網頁內運作。「FuriKanji擴充功能」具備在內嵌網頁內正常運作的能力。
-
-    * 小於500x500的內嵌網頁，「FuriKanji擴充功能」視為廣告性內嵌網頁，FuriKanji不會運作。
+* 當使用者暫時離開Chrome，切換到其他應用程式(例如Word)，或者切換到其他分頁時，FuriKanji所運行的視框(frame)不再是使用者的焦點(focus)時，FuriKanji會自動暫停以節省系統資源。
 
 .. _h68017771fa7c85ef23567fe7b5a:
 
 致謝與推薦連結
 ==============
 
-* 「\ |LINK3|\ 功能
+* 「\ |LINK4|\ 功能
 
-* 「\ |LINK4|\ 
+* 「\ |LINK5|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -210,7 +202,7 @@ Jisho是一個很棒的網站，但是這個網站標注音的方式使用與其
 回報問題
 ========
 
-您可以利用「Facebook訊息」將訊息傳給\ |LINK5|\ 
+您可以利用「Facebook訊息」將訊息傳給\ |LINK6|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -225,12 +217,12 @@ Jisho是一個很棒的網站，但是這個網站標注音的方式使用與其
 |         |                                                                                                              |
 |         |* 從I.F. Add-on改名為 FuriKanji                                                                               |
 +---------+--------------------------------------------------------------------------------------------------------------+
-|1.17.5.26|讓\ |LINK6|\ 可與Google翻譯擴充功能一起使用。                                                                 |
+|1.17.5.26|讓\ |LINK7|\ 可與Google翻譯擴充功能一起使用。                                                                 |
 +---------+--------------------------------------------------------------------------------------------------------------+
-|1.0      |2017/1/26 首次發布，名稱為「I.F. Add-on」，是一個\ |LINK7|\                                                   |
+|1.0      |2017/1/26 首次發布，名稱為「I.F. Add-on」，是一個\ |LINK8|\                                                   |
 +---------+--------------------------------------------------------------------------------------------------------------+
 
-\ |LINK8|\ 
+\ |LINK9|\ 
 
 .. bottom of content
 
@@ -244,33 +236,37 @@ Jisho是一個很棒的網站，但是這個網站標注音的方式使用與其
 
 .. |LINK1| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/if-add-on/plpdljndcikodkdhcbcbfnbmeplcjdeh" target="_blank">FuriKanji 擴充功能</a>
+    <a href="http://jisho.org/" target="_blank">Jisho</a>
 
 .. |LINK2| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb" target="_blank">Google 翻譯擴充功能</a>
+    <a href="https://chrome.google.com/webstore/detail/if-add-on/plpdljndcikodkdhcbcbfnbmeplcjdeh" target="_blank">FuriKanji 擴充功能</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://www.npmjs.com/package/kuroshiro" target="_blank">FuriKanji翻譯擴充功能」使用KuroShiro的Furigana API提供Furigana</a>
+    <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb" target="_blank">Google 翻譯擴充功能</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://www.youtube.com/watch?v=OZZlEuE8RdU" target="_blank">FuriKanji翻譯擴充功能」的考試模式靈感來源</a>
+    <a href="https://www.npmjs.com/package/kuroshiro" target="_blank">FuriKanji翻譯擴充功能」使用KuroShiro的Furigana API提供Furigana</a>
 
 .. |LINK5| raw:: html
 
-    <a href="https://www.facebook.com/singuan.iap" target="_blank">這個帳號</a>
+    <a href="https://www.youtube.com/watch?v=OZZlEuE8RdU" target="_blank">FuriKanji翻譯擴充功能」的考試模式靈感來源</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 擴充功能</a>
+    <a href="https://www.facebook.com/singuan.iap" target="_blank">這個帳號</a>
 
 .. |LINK7| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana擴充功能的patch</a>
+    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 擴充功能</a>
 
 .. |LINK8| raw:: html
+
+    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana擴充功能的patch</a>
+
+.. |LINK9| raw:: html
 
     <a href="https://docs.google.com/document/d/1X6sOdxpKFERm49a07BU4QFOuZeqDuWjNfdJWXU7VKrI/edit" target="_blank">本文件原始檔案</a>
 
