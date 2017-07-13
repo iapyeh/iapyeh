@@ -219,6 +219,10 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 \ |LINK8|\ 
 
+
+|REPLACE1|
+
+
 .. bottom of content
 
 
@@ -228,6 +232,16 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 .. |STYLE2| replace:: **我的主要語言**
 
+
+.. |REPLACE1| raw:: html
+
+    <script language="javascript">
+    document.querySelectorAll('a').forEach(function(a){
+        if (a.getAttribute('href').indexOf('youtube')>0){
+            a.setAttribute('target','_blank');
+        }
+    })
+    </script>
 
 .. |LINK1| raw:: html
 
