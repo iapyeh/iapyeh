@@ -45,6 +45,8 @@
     
     * 可直接得到外來語的本字，這對於理解外來語非常方便。例如，與其讓Google翻譯把スーツケース翻譯成手提箱，不如讓Google翻譯把原文 suitcase 顯示出來，這樣一次就能理解音跟義。
     
+    * 有時Google翻譯能幫助顯示罕見字的讀音，例如以下的「ゑ子さん」，幾乎所有的線上字典都不知道「\ |LINK3|\ 」該怎麼唸。\ |IMG8|\ 
+    
     要讓Google翻譯將日文翻譯為英文，你可以進入Google翻譯中修改「我的主要語言」設定。
 
 .. _h65a754d314849631d4f1770f68746b:
@@ -75,7 +77,7 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 與Jisho網站整合
 ===============
 
-\ |LINK3|\ 是一個很棒的線上辞書網站，但是這個網站標注音的方式使用與其他網站標注音不一樣的方式，導致其他標注音的擴充功能無法在此網站正常運作，而且「Google 翻譯擴充功能」也會因為無法正確圈選到所要翻譯的日文而無法正常運作。「FuriKanji擴充功能」特別為Jisho網站客製化以解決這些問題。
+\ |LINK4|\ 是一個很棒的線上辞書網站，但是這個網站標注音的方式使用與其他網站標注音不一樣的方式，導致其他標注音的擴充功能無法在此網站正常運作，而且「Google 翻譯擴充功能」也會因為無法正確圈選到所要翻譯的日文而無法正常運作。「FuriKanji擴充功能」特別為Jisho網站客製化以解決這些問題。
 
 .. _h2164242e4c6048506f23311549231654:
 
@@ -117,9 +119,9 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 * 日文被誤認為中文時，會在旁另外顯示一個「漢字よ」讓使用者快速改變成日文。如下圖：
 
-    * \ |IMG8|\ ，然後就會像這樣：
+    * \ |IMG9|\ ，然後就會像這樣：
 
-    * \ |IMG9|\ 
+    * \ |IMG10|\ 
 
 * 可直接在網頁內修改「翻譯Google 擴充功能選項」，不另開視窗。因為日文翻英文比較準確，所以翻譯日文時，「\ |STYLE0|\ 」要設定成「英文」。然而要閱讀英文時，又要把「\ |STYLE1|\ 改回來。直接在網頁內修改這樣會使得修改「\ |STYLE2|\ 」時比較方便。
 
@@ -135,9 +137,9 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     每一個網頁都可單獨開啟或關閉FuriKanji的功能
 
-    關閉狀態是藍色小圖\ |IMG10|\     ，此時點一下藍色小圖就會啟動「FuriKanji擴充功能」
+    關閉狀態是藍色小圖\ |IMG11|\     ，此時點一下藍色小圖就會啟動「FuriKanji擴充功能」
 
-    開啟狀態是紅色小圖\ |IMG11|\     ，此時點一下紅色小圖後選擇「關閉」可在該網頁關閉「FuriKanji擴充功能」。
+    開啟狀態是紅色小圖\ |IMG12|\     ，此時點一下紅色小圖後選擇「關閉」可在該網頁關閉「FuriKanji擴充功能」。
 
     「FuriKanji擴充功能」能偵測網頁是否含有日文內容，並自動開啟。如果你不需要此功能可以在「設定」中關閉。
 
@@ -148,7 +150,7 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     把要標注的漢字選起來像這樣
 
-\ |IMG12|\ 
+\ |IMG13|\ 
 
     「FuriKanji擴充功能」會在網頁下方顯示圈選文字的注音，並在取消圈選文字五秒之後自動消失。
 
@@ -159,9 +161,9 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     把要標注的漢字選起來會像這樣
 
-\ |IMG13|\ 
+\ |IMG14|\ 
 
-    點一下圈選區右下方的小圖示後，「Google翻譯擴充功能」上的日文會顯示注音，如下圖：\ |IMG14|\ 
+    點一下圈選區右下方的小圖示後，「Google翻譯擴充功能」上的日文會顯示注音，如下圖：\ |IMG15|\ 
 
 ..  Tip:: 
 
@@ -174,13 +176,13 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     將滑鼠移到有注音的漢字上方後，點選該漢字就可以開啟查詢頁面。
 
-\ |IMG15|\ 
+\ |IMG16|\ 
 
     FuriKanji預設的查詢的辞書是 「ふりがな文庫」。這個網站是Furigana的專門網站，內容豐富，速度快又沒有廣告，是學習ふりがな很棒的網站。
 
-    綠色的\ |IMG16|\     小圖是用來切換到其他辞書查詢的按鈕，它會顯示在辞書原有的「查詢按鈕」右邊。按下這一個按鈕後即切換辞書網站，不需重新輸入關鍵字。
+    綠色的\ |IMG17|\     小圖是用來切換到其他辞書查詢的按鈕，它會顯示在辞書原有的「查詢按鈕」右邊。按下這一個按鈕後即切換辞書網站，不需重新輸入關鍵字。
 
-\ |IMG17|\ 
+\ |IMG18|\ 
 
 .. _h2164242e4c6048506f23311549231654:
 
@@ -196,9 +198,9 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 致謝與推薦連結
 ==============
 
-* 「\ |LINK4|\ 功能
+* 「\ |LINK5|\ 功能
 
-* 「\ |LINK5|\ 
+* 「\ |LINK6|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -216,16 +218,16 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 +---------+----------------------------------------------------------------------------------------------------------------------------+
 |版本     |主要異動                                                                                                                    |
 +---------+----------------------------------------------------------------------------------------------------------------------------+
-|1.17.7.13|＊ 為了在Google翻譯擴充功能提供Furigana，所以單獨提供Furigana功能。如此一來，使用者可以單獨使用，不需先安裝「\ |LINK6|\ 」。|
+|1.17.7.13|＊ 為了在Google翻譯擴充功能提供Furigana，所以單獨提供Furigana功能。如此一來，使用者可以單獨使用，不需先安裝「\ |LINK7|\ 」。|
 |         |                                                                                                                            |
 |         |＊ 改名為 FuriKanji                                                                                                         |
 +---------+----------------------------------------------------------------------------------------------------------------------------+
-|1.17.5.26|讓「\ |LINK7|\ 」可與Google翻譯擴充功能一起使用。                                                                           |
+|1.17.5.26|讓「\ |LINK8|\ 」可與Google翻譯擴充功能一起使用。                                                                           |
 +---------+----------------------------------------------------------------------------------------------------------------------------+
-|1.0      |2017/1/26 首次發布，名稱為「I.F. Add-on」，是一個「\ |LINK8|\                                                               |
+|1.0      |2017/1/26 首次發布，名稱為「I.F. Add-on」，是一個「\ |LINK9|\                                                               |
 +---------+----------------------------------------------------------------------------------------------------------------------------+
 
-\ |LINK9|\ 
+\ |LINK10|\ 
 
 
 |REPLACE1|
@@ -261,19 +263,19 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 .. |LINK3| raw:: html
 
-    <a href="http://jisho.org/" target="_blank">Jisho</a>
+    <a href="https://ja.wikipedia.org/wiki/%E3%82%91" target="_blank">ゑ</a>
 
 .. |LINK4| raw:: html
 
-    <a href="https://www.npmjs.com/package/kuroshiro" target="_blank">FuriKanji翻譯擴充功能」使用KuroShiro的Furigana API提供Furigana</a>
+    <a href="http://jisho.org/" target="_blank">Jisho</a>
 
 .. |LINK5| raw:: html
 
-    <a href="https://www.youtube.com/watch?v=OZZlEuE8RdU" target="_blank">FuriKanji翻譯擴充功能」的考試模式靈感來源</a>
+    <a href="https://www.npmjs.com/package/kuroshiro" target="_blank">FuriKanji翻譯擴充功能」使用KuroShiro的Furigana API提供Furigana</a>
 
 .. |LINK6| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 擴充功能</a>
+    <a href="https://www.youtube.com/watch?v=OZZlEuE8RdU" target="_blank">FuriKanji翻譯擴充功能」的考試模式靈感來源</a>
 
 .. |LINK7| raw:: html
 
@@ -281,9 +283,13 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 .. |LINK8| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana擴充功能」的patch</a>
+    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana 擴充功能</a>
 
 .. |LINK9| raw:: html
+
+    <a href="https://chrome.google.com/webstore/detail/ipa-furigana/jnnbgnfnncobhklficfkdnclohaklifi" target="_blank">IPA Furigana擴充功能」的patch</a>
+
+.. |LINK10| raw:: html
 
     <a href="https://docs.google.com/document/d/1X6sOdxpKFERm49a07BU4QFOuZeqDuWjNfdJWXU7VKrI/edit" target="_blank">本文件原始檔案</a>
 
@@ -319,41 +325,45 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
    :width: 409 px
 
 .. |IMG8| image:: static/I_F_Add-on_8.png
+   :height: 214 px
+   :width: 280 px
+
+.. |IMG9| image:: static/I_F_Add-on_9.png
    :height: 88 px
    :width: 238 px
 
-.. |IMG9| image:: static/I_F_Add-on_9.png
+.. |IMG10| image:: static/I_F_Add-on_10.png
    :height: 100 px
    :width: 238 px
-
-.. |IMG10| image:: static/I_F_Add-on_10.png
-   :height: 29 px
-   :width: 32 px
 
 .. |IMG11| image:: static/I_F_Add-on_11.png
    :height: 29 px
    :width: 32 px
 
 .. |IMG12| image:: static/I_F_Add-on_12.png
+   :height: 29 px
+   :width: 32 px
+
+.. |IMG13| image:: static/I_F_Add-on_13.png
    :height: 44 px
    :width: 388 px
 
-.. |IMG13| image:: static/I_F_Add-on_13.png
+.. |IMG14| image:: static/I_F_Add-on_14.png
    :height: 64 px
    :width: 390 px
 
-.. |IMG14| image:: static/I_F_Add-on_14.png
+.. |IMG15| image:: static/I_F_Add-on_15.png
    :height: 144 px
    :width: 296 px
 
-.. |IMG15| image:: static/I_F_Add-on_15.png
+.. |IMG16| image:: static/I_F_Add-on_16.png
    :height: 98 px
    :width: 300 px
 
-.. |IMG16| image:: static/I_F_Add-on_1.png
+.. |IMG17| image:: static/I_F_Add-on_1.png
    :height: 20 px
    :width: 20 px
 
-.. |IMG17| image:: static/I_F_Add-on_16.png
+.. |IMG18| image:: static/I_F_Add-on_17.png
    :height: 65 px
    :width: 188 px
