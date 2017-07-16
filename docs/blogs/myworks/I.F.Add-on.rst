@@ -8,6 +8,25 @@
 
 \ |IMG2|\ 
 
+.. _h80796f6531d141926653d426622443a:
+
+\ |IMG3|\ ==========
+
+.. _h6a7f23367b2f433469314f47392f697a:
+
+\ |IMG4|\ ==========
+
+\ |IMG5|\ 
+
+.. _h174fb648377959437b5c1f697c1c40:
+
+安裝方式
+========
+
+* 請用Chrome點選開啟： \ |LINK1|\ 
+
+* 請用Chrome點選開啟：\ |LINK2|\  （如果已經安裝請忽略）
+
 .. _h2c59317252ab342915276721104255:
 
 與「Google翻譯擴充功能」合用
@@ -17,7 +36,7 @@
 
 「FuriKanji擴充功能」有標注音（振り仮名）、查辭典、背單字三種功能，可以單獨使用，也可以與「Google翻譯擴充功能」一起搭配使用，使得Chrome瀏覽器成為一個具備完整的「注音＋翻譯＋辭典＋學習」的日文學習工具。
 
-\ |IMG3|\ 
+\ |IMG6|\ 
 
 
 .. admonition:: 小提示：用英文學日文
@@ -58,7 +77,7 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 與Jisho網站整合
 ===============
 
-\ |LINK1|\ 是一個很棒的線上辞書網站，但是這個網站標注音的方式使用與其他網站標注音不一樣的方式，導致其他標注音的擴充功能無法在此網站正常運作，而且「Google 翻譯擴充功能」也會因為無法正確圈選到所要翻譯的日文而無法正常運作。「FuriKanji擴充功能」特別為Jisho網站客製化以解決這些問題。
+\ |LINK3|\ 是一個很棒的線上辞書網站，但是這個網站標注音的方式使用與其他網站標注音不一樣的方式，導致其他標注音的擴充功能無法在此網站正常運作，而且「Google 翻譯擴充功能」也會因為無法正確圈選到所要翻譯的日文而無法正常運作。「FuriKanji擴充功能」特別為Jisho網站客製化以解決這些問題。
 
 .. _h2164242e4c6048506f23311549231654:
 
@@ -100,20 +119,11 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 * 日文被誤認為中文時，會在旁另外顯示一個「漢字よ」讓使用者快速改變成日文。如下圖：
 
-    * \ |IMG4|\ ，然後就會像這樣：
+    * \ |IMG7|\ ，然後就會像這樣：
 
-    * \ |IMG5|\ 
+    * \ |IMG8|\ 
 
 * 可直接在網頁內修改「翻譯Google 擴充功能選項」，不另開視窗。因為日文翻英文比較準確，所以翻譯日文時，「\ |STYLE0|\ 」要設定成「英文」。然而要閱讀英文時，又要把「\ |STYLE1|\ 改回來。直接在網頁內修改這樣會使得修改「\ |STYLE2|\ 」時比較方便。
-
-.. _h174fb648377959437b5c1f697c1c40:
-
-安裝方式
-========
-
-* 請用Chrome點選開啟： \ |LINK2|\ 
-
-* 請用Chrome點選開啟：\ |LINK3|\  （如果已經安裝請忽略）
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -127,9 +137,9 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     每一個網頁都可單獨開啟或關閉FuriKanji的功能
 
-    關閉狀態是藍色小圖\ |IMG6|\     ，此時點一下藍色小圖就會啟動「FuriKanji擴充功能」
+    關閉狀態是藍色小圖\ |IMG9|\     ，此時點一下藍色小圖就會啟動「FuriKanji擴充功能」
 
-    開啟狀態是紅色小圖\ |IMG7|\     ，此時點一下紅色小圖後選擇「關閉」可在該網頁關閉「FuriKanji擴充功能」。
+    開啟狀態是紅色小圖\ |IMG10|\     ，此時點一下紅色小圖後選擇「關閉」可在該網頁關閉「FuriKanji擴充功能」。
 
     「FuriKanji擴充功能」能偵測網頁是否含有日文內容，並自動開啟。如果你不需要此功能可以在「設定」中關閉。
 
@@ -140,7 +150,7 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     把要標注的漢字選起來像這樣
 
-\ |IMG8|\ 
+\ |IMG11|\ 
 
     「FuriKanji擴充功能」會在網頁下方顯示圈選文字的注音，並在取消圈選文字五秒之後自動消失。
 
@@ -151,9 +161,9 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     把要標注的漢字選起來會像這樣
 
-\ |IMG9|\ 
+\ |IMG12|\ 
 
-    點一下圈選區右下方的小圖示後，「Google翻譯擴充功能」上的日文會顯示注音，如下圖：\ |IMG10|\ 
+    點一下圈選區右下方的小圖示後，「Google翻譯擴充功能」上的日文會顯示注音，如下圖：\ |IMG13|\ 
 
 ..  Tip:: 
 
@@ -166,13 +176,13 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
     將滑鼠移到有注音的漢字上方後，點選該漢字就可以開啟查詢頁面。
 
-\ |IMG11|\ 
+\ |IMG14|\ 
 
     FuriKanji預設的查詢的辞書是 「ふりがな文庫」。這個網站是Furigana的專門網站，內容豐富，速度快又沒有廣告，是學習ふりがな很棒的網站。
 
-    綠色的\ |IMG12|\     小圖是用來切換到其他辞書查詢的按鈕，它會顯示在辞書原有的「查詢按鈕」右邊。按下這一個按鈕後即切換辞書網站，不需重新輸入關鍵字。
+    綠色的\ |IMG15|\     小圖是用來切換到其他辞書查詢的按鈕，它會顯示在辞書原有的「查詢按鈕」右邊。按下這一個按鈕後即切換辞書網站，不需重新輸入關鍵字。
 
-\ |IMG13|\ 
+\ |IMG16|\ 
 
 .. _h2164242e4c6048506f23311549231654:
 
@@ -245,15 +255,15 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 
 .. |LINK1| raw:: html
 
-    <a href="http://jisho.org/" target="_blank">Jisho</a>
+    <a href="https://chrome.google.com/webstore/detail/if-add-on/plpdljndcikodkdhcbcbfnbmeplcjdeh" target="_blank">FuriKanji 擴充功能</a>
 
 .. |LINK2| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/if-add-on/plpdljndcikodkdhcbcbfnbmeplcjdeh" target="_blank">FuriKanji 擴充功能</a>
+    <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb" target="_blank">Google 翻譯擴充功能</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://chrome.google.com/webstore/detail/google-translate/aapbdbdomjkkjkaonfhkkikfgjllcleb" target="_blank">Google 翻譯擴充功能</a>
+    <a href="http://jisho.org/" target="_blank">Jisho</a>
 
 .. |LINK4| raw:: html
 
@@ -286,45 +296,57 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
    :target: https://youtu.be/5wwFgygTmVs
 
 .. |IMG3| image:: static/I_F_Add-on_3.png
+   :height: 217 px
+   :width: 697 px
+
+.. |IMG4| image:: static/I_F_Add-on_4.png
+   :height: 197 px
+   :width: 697 px
+
+.. |IMG5| image:: static/I_F_Add-on_5.png
+   :height: 254 px
+   :width: 697 px
+
+.. |IMG6| image:: static/I_F_Add-on_6.png
    :height: 130 px
    :width: 409 px
 
-.. |IMG4| image:: static/I_F_Add-on_4.png
+.. |IMG7| image:: static/I_F_Add-on_7.png
    :height: 88 px
    :width: 238 px
 
-.. |IMG5| image:: static/I_F_Add-on_5.png
+.. |IMG8| image:: static/I_F_Add-on_8.png
    :height: 100 px
    :width: 238 px
 
-.. |IMG6| image:: static/I_F_Add-on_6.png
+.. |IMG9| image:: static/I_F_Add-on_9.png
    :height: 29 px
    :width: 32 px
 
-.. |IMG7| image:: static/I_F_Add-on_7.png
+.. |IMG10| image:: static/I_F_Add-on_10.png
    :height: 29 px
    :width: 32 px
 
-.. |IMG8| image:: static/I_F_Add-on_8.png
+.. |IMG11| image:: static/I_F_Add-on_11.png
    :height: 44 px
    :width: 388 px
 
-.. |IMG9| image:: static/I_F_Add-on_9.png
+.. |IMG12| image:: static/I_F_Add-on_12.png
    :height: 64 px
    :width: 390 px
 
-.. |IMG10| image:: static/I_F_Add-on_10.png
+.. |IMG13| image:: static/I_F_Add-on_13.png
    :height: 144 px
    :width: 296 px
 
-.. |IMG11| image:: static/I_F_Add-on_11.png
+.. |IMG14| image:: static/I_F_Add-on_14.png
    :height: 98 px
    :width: 300 px
 
-.. |IMG12| image:: static/I_F_Add-on_1.png
+.. |IMG15| image:: static/I_F_Add-on_1.png
    :height: 20 px
    :width: 20 px
 
-.. |IMG13| image:: static/I_F_Add-on_12.png
+.. |IMG16| image:: static/I_F_Add-on_15.png
    :height: 65 px
    :width: 188 px
