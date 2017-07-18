@@ -264,14 +264,14 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
     
-    console.log('h5')
+    console.log('h6')
     setTimeout(function(){
       document.querySelectorAll('iframe').forEach(
         function(ifr){
           console.log(ifr.src)
         }
       )
-    },2000)
+    },5000)
     
     </script>
     
