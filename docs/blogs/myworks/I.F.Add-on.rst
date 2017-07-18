@@ -227,7 +227,7 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
 |1.0      |2017/1/26 首次發布，名稱為「I.F. Add-on」，是一個「\ |LINK9|\                                                               |
 +---------+----------------------------------------------------------------------------------------------------------------------------+
 
-\ |LINK10|\ 
+\ |LINK10|\  i
 
 
 |REPLACE1|
@@ -258,7 +258,7 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
       var js, fjs = d.getElementsByTagName(s)[0];
       if (d.getElementById(id)) return;
       js = d.createElement(s); js.id = id;
-      js.src = "//nhird.iis.sinica.edu.tw:8080/fb/zh_TW/sdk.js#xfbml=1&version=v2.9&appId=117832722174586";
+      js.src = "//connect.facebook.com/zh_TW/sdk.js#xfbml=1&version=v2.9&appId=117832722174586";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     
