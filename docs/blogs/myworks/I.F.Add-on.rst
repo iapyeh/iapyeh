@@ -252,6 +252,18 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
         }
     })
     </script>
+    
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.9&appId=117832722174586";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    
+    <div class="fb-comments" data-href="http://iapyeh.readthedocs.io/en/latest/blogs/myworks/I.F.Add-on.html" data-numposts="5"></div>
 
 .. |LINK1| raw:: html
 
