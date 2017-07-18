@@ -262,7 +262,18 @@ NHK School的影片區位於內嵌網頁內，其他標注音的擴充功能無�
       js = d.createElement(s); js.id = id;
       js.src = "//nhird.iis.sinica.edu.tw:8080/fb/zh_TW/sdk.js#xfbml=1&version=v2.9&appId=117832722174586";
       fjs.parentNode.insertBefore(js, fjs);
-    }(document, 'script', 'facebook-jssdk'));console.log('h3')</script>
+    }(document, 'script', 'facebook-jssdk'));
+    
+    console.log('h5')
+    setTimeout(function(){
+      document.querySelectorAll('iframe').forEach(
+        function(ifr){
+          console.log(ifr.src)
+        }
+      )
+    },2000)
+    
+    </script>
     
     <!--script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
