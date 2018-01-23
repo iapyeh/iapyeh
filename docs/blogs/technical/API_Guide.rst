@@ -37,5 +37,12 @@ API的數值並不是呈現給使用者的數值，而是在程式之間通訊�
 |                  |                                                                                                                     |                         |
 +------------------+---------------------------------------------------------------------------------------------------------------------+-------------------------+
 
+\ |LINK1|\ 
 
 .. bottom of content
+
+
+.. |LINK1| raw:: html
+
+    <a href="https://docs.google.com/document/d/1_QCzpYQNOWL3XVV6eoih9Z12fOxBKzJ2-njHAwYWfZw/edit?addon_dry_run=AAnXSK-uJ_9xJmvFo5l4zP3lDVvRAY8LJCVgYK5ZJhRtZYarwAjfIn-RqPUdSmVTiBvJfvEeZl-ugn642Gaswgnu8ELmcPEwAbm5Wx1v1HEFI6Hs1yhpDTAfceVmZVNymNqtImHuKTLz" target="_blank">Origin</a>
+
