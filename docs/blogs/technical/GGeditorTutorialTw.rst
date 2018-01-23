@@ -23,6 +23,8 @@ Tutorial - 從零開始建立一個RTD文件網站
 
 |REPLACE1|
 
+update: 2018/1/23
+
 本文件使用GGeditor編輯，\ |LINK1|\ 。
 
 .. bottom of content
