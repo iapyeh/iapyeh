@@ -145,16 +145,21 @@
 背景說明
 ********
 
-對於因AI而開始寫Python的人，Panda, Jupiter是重要的套件。而在「前AI時期」引導很多人進入Python領域的誘因則是Twisted與Zope，Twisted是Python老牌的async套件，很多人用來寫爬蟲的 Python3 asyncio，構想也是源自於Twisted\ [#F2]_\ 。Twisted目前仍是Python重要的套件，用途廣泛尤其是Networking的相關應用。
+對於因AI而開始寫Python的人，Panda, Jupiter是重要的套件。而在「前AI時期」引導很多人進入Python領域的則是Twisted與Zope，Twisted是Python老牌的async套件，很多人用來寫爬蟲的 Python3 asyncio，構想也是源自於Twisted\ [#F2]_\ 。Twisted目前仍是Python重要的套件用途廣泛，尤其是Networking的相關應用。
 
 Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期從java借來的，屬於比較"古早"的格式，跟目前流行的\ |LINK7|\ \ [#F3]_\ 比起來，屬於輕量(light-weight)級的markup語法，\ |LINK8|\ )。而相當多的Epytext語法也被保留在reStructuredText當中
 
 .. _h174fb648377959437b5c1f697c1c40:
 
 版本沿革
-********
+========
 
 * 2018年01月28初版，使用\ |LINK10|\ 從Google Docs轉成reStructuredText後發佈。
+
+.. _h174fb648377959437b5c1f697c1c40:
+
+意見回饋
+========
 
 --------
 
@@ -170,9 +175,7 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
 .. |REPLACE1| raw:: html
 
     <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fiapyeh.readthedocs.io%2Fen%2Flatest%2Fblogs%2Ftechnical%2Fdocs_style_review_twisted.html&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=117832722174586" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-    
-    
-    
+    <hr>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
