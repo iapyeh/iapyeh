@@ -11,7 +11,7 @@
 
 縮排是Python的特色，縮排讓Python程式碼簡潔易讀，很多人因此特性而喜愛Python。然而要讓程式碼的編排簡潔，只有縮排對齊是不夠的，空行也是重點。乍看之下，空行、換行、斷行簡單到不行，有什麼好談的呢？實際上正式因為太簡單反而沒做好的例子比比皆是。常聽人家說「世界上沒有簡單的事情只有簡單的頭腦」，空行這件事便是一例。
 
-本文從 Twisted專案中挑出一個看起來簡潔的程式檔，學習其中關於空行、換行、斷行的使用時機。順便也稍微討論一些在此案例中出現的docstring。docstring是把程式的說明包含在原始碼中的一種機制，透過docstring可自動產生該程式的文件。很多Python教學文件把docstring「輕鬆帶過」，也許是因為那些文件是用在課堂上教學。然而在實務上docstring（aka Python文件）是一個很大而且甚至有點深奧的課題，尤其是Team work，或者是要參與網路上的專案，但是本文在此只稍微討論一部分出現在本案例中的docstring相關內容。
+本文從 Twisted專案中挑出一個看起來簡潔的程式檔，學習其中關於空行、換行、斷行的使用時機。順便也稍微討論一些在此案例中出現的docstring。docstring是把程式的說明包含在原始碼中的一種機制，透過docstring可自動產生該程式的文件。很多Python教學文件把docstring輕輕帶過，或者絕口不提，甚至筆者還遇過有自認為高手大師的人竟然把寫文件當成是一種恥辱。然而在實務上docstring（aka Python文件）是一個很大而且甚至有點深奧的課題，尤其是Team work，或者是要參與網路上的專案，但是本文在此只稍微討論一部分出現在本案例中的docstring相關內容。
 
 .. _h1634483c7822441972316c7301545:
 
@@ -174,8 +174,7 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
 
 .. |REPLACE1| raw:: html
 
-    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fiapyeh.readthedocs.io%2Fen%2Flatest%2Fblogs%2Ftechnical%2Fdocs_style_review_twisted.html&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=117832722174586" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
-    <hr>
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fiapyeh.readthedocs.io%2Fen%2Flatest%2Fblogs%2Ftechnical%2Fdocs_style_review_twisted.html&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=117832722174586" width="450" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
