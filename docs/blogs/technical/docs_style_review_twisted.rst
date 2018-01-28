@@ -157,8 +157,25 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
 * 2018年01月28初版，使用\ |LINK10|\ 從Google Docs轉成reStructuredText後發佈。
 
 
+|REPLACE1|
+
+
 .. bottom of content
 
+
+.. |REPLACE1| raw:: html
+
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/zh_TW/sdk.js#xfbml=1&version=v2.11&appId=117832722174586&autoLogAppEvents=1';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
+    
+    <div class="fb-comments" data-href="https://iapyeh.readthedocs.io/en/latest/blogs/technical/docs_style_review_twisted.html" data-numposts="10" data-width="100%"></div>
+    
 
 .. |LINK1| raw:: html
 
