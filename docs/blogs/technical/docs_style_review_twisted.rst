@@ -156,8 +156,12 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
 
 * 2018年01月28初版，使用\ |LINK10|\ 從Google Docs轉成reStructuredText後發佈。
 
+--------
+
 
 |REPLACE1|
+
+--------
 
 
 .. bottom of content
