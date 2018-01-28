@@ -152,7 +152,10 @@
 
 Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期從java借來的，屬於比較"古早"的格式，跟目前流行的\ |LINK7|\ \ [#F3]_\ 比起來，屬於輕量(light-weight)級的markup語法，\ |LINK8|\ )。而相當多的Epytext語法也被保留在reStructuredText當中
 
+.. _h174fb648377959437b5c1f697c1c40:
+
 版本沿革
+********
 
 * 2018年01月28初版，使用\ |LINK10|\ 從Google Docs轉成reStructuredText後發佈。
 
