@@ -169,6 +169,8 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
 
 .. |REPLACE1| raw:: html
 
+    <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fiapyeh.readthedocs.io%2Fen%2Flatest%2Fblogs%2Ftechnical%2Fdocs_style_review_twisted.html&width=100%25&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId=406266699522929" width="100%" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
+    
     <div id="fb-root"></div>
     <script>(function(d, s, id) {
       var js, fjs = d.getElementsByTagName(s)[0];
@@ -178,7 +180,7 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     
-    <div class="fb-comments" data-href="https://iapyeh.readthedocs.io/en/latest/blogs/technical/docs_style_review_twisted.html" data-numposts="10" data-width="100%" data-colorscheme="dark"></div>
+    <div class="fb-comments" data-href="https://iapyeh.readthedocs.io/en/latest/blogs/technical/docs_style_review_twisted.html" data-numposts="10" data-width="100%"></div>
     
 
 .. |LINK1| raw:: html
