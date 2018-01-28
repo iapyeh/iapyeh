@@ -11,14 +11,14 @@
 
 縮排是Python的特色，縮排讓Python程式碼簡潔易讀，很多人因此特性而喜愛Python。然而要讓程式碼的編排簡潔，只有縮排對齊是不夠的，空行也是重點。乍看之下，空行、換行、斷行簡單到不行，有什麼好談的呢？實際上正式因為太簡單反而沒做好的例子比比皆是。常聽人家說「世界上沒有簡單的事情只有簡單的頭腦」，空行這件事便是一例。
 
-本文從 Twisted專案中挑出一個看起來簡潔的程式檔，學習其中關於空行、換行、斷行的使用時機。順便也稍微討論一些在此案例中出現的docstring。docstring是把程式的說明包含在原始碼中的一種機制，透過docstring可自動產生該程式的文件。很多Python教學文件把docstring「輕鬆帶過」，也許是因為那些文件是用在課堂上教學。然而在實務上docstring（aka Python文件）是一個很大而且甚至有點深奧的課題，尤其是Team work，或者是要參與網路上的專案，但是本文在此只稍微討論一部分出現在本案例中的docstring相關內容\ [#F1]_\ 。
+本文從 Twisted專案中挑出一個看起來簡潔的程式檔，學習其中關於空行、換行、斷行的使用時機。順便也稍微討論一些在此案例中出現的docstring。docstring是把程式的說明包含在原始碼中的一種機制，透過docstring可自動產生該程式的文件。很多Python教學文件把docstring「輕鬆帶過」，也許是因為那些文件是用在課堂上教學。然而在實務上docstring（aka Python文件）是一個很大而且甚至有點深奧的課題，尤其是Team work，或者是要參與網路上的專案，但是本文在此只稍微討論一部分出現在本案例中的docstring相關內容。
 
 .. _h1634483c7822441972316c7301545:
 
 本文
 ****
 
-筆者挑選的是範例當中的IRC-client範例程式。因為範例程式不在API文件當中，它的docstrings會比較簡單些，可避免太多枝節而失去重點。(\ |LINK1|\ )
+筆者挑選的是範例當中的IRC-client範例程式。因為範例程式不在API文件當中，它的docstrings會比較簡單些，可避免太多枝節而失去重點\ [#F1]_\ 。(\ |LINK1|\ )
 
 \ |IMG1|\ 
 
@@ -204,7 +204,7 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
 
 .. rubric:: Footnotes
 
-.. [#f1] 想深入瞭解的讀者可以參考  `Google的Python程式風格指南 <http://tw-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/index.html>`__ 
+.. [#f1] 關於程式docstring的風格有好幾種，想深入瞭解的讀者可以參考 `這一則Stackoverflow <https://stackoverflow.com/questions/3898572/what-is-the-standard-python-docstring-format>`__ ，或者  `Google的Python程式風格指南 <http://tw-google-styleguide.readthedocs.io/en/latest/google-python-styleguide/index.html>`__ 
 .. [#f2]  "asyncio was heavily inspired by Twisted" （ `出處 <http://asyncio.readthedocs.io/en/latest/twisted.html>`__ ）
 .. [#f3]  關於使用reStructureedText (reST)製作Python文件，有興趣的讀者可參考「 `如何寫Python文件 <http://iapyeh.readthedocs.io/en/latest/blogs/technical/how2pydocs.html>`__ 」
 .. [#f4]  reStructureedText的語法與Epytext的語法接近，如果docstring當中有L{x},C{x}這些markup者則是 Epytext。
