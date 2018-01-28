@@ -178,7 +178,7 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));</script>
     
-    <div class="fb-comments" data-href="https://iapyeh.readthedocs.io/en/latest/blogs/technical/docs_style_review_twisted.html" data-numposts="10" data-width="100%"></div>
+    <div class="fb-comments" data-href="https://iapyeh.readthedocs.io/en/latest/blogs/technical/docs_style_review_twisted.html" data-numposts="10" data-width="100%" data-colorscheme="dark"></div>
     
 
 .. |LINK1| raw:: html
