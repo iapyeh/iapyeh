@@ -152,7 +152,7 @@
 .. _h1634483c7822441972316c7301545:
 
 後語
-####
+****
 
 對於因AI而開始寫Python的人，Panda, Jupiter是重要的套件。而在「前AI時期」引導很多人進入Python領域的則是Twisted與Zope，Twisted是Python老牌的async套件，很多人用來寫爬蟲的 Python3 asyncio，構想也是源自於Twisted\ [#F2]_\ 。Twisted目前仍是Python重要的套件用途廣泛，尤其是Networking的相關應用。
 
