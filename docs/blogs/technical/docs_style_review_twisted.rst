@@ -245,42 +245,42 @@ Twisted使用\ |LINK5|\ 為文件的markup語法 \ |LINK6|\ 。Epytext是早期�
 .. [#f3]  關於使用reStructureedText (reST)製作Python文件，有興趣的讀者可參考「 `如何寫Python文件 <http://iapyeh.readthedocs.io/en/latest/blogs/technical/how2pydocs.html>`__ 」
 .. [#f4]  reStructureedText的語法與Epytext的語法接近，如果docstring當中有L{x},C{x}這些markup者則是 Epytext。
 
-.. |IMG1| image:: static/Python_原始碼風格_1.png
+.. |IMG1| image:: static/空行讓Python更簡潔_1.png
    :height: 402 px
    :width: 697 px
 
-.. |IMG2| image:: static/Python_原始碼風格_2.png
+.. |IMG2| image:: static/空行讓Python更簡潔_2.png
    :height: 193 px
    :width: 697 px
 
-.. |IMG3| image:: static/Python_原始碼風格_3.png
+.. |IMG3| image:: static/空行讓Python更簡潔_3.png
    :height: 640 px
    :width: 697 px
 
-.. |IMG4| image:: static/Python_原始碼風格_4.png
+.. |IMG4| image:: static/空行讓Python更簡潔_4.png
    :height: 366 px
    :width: 557 px
 
-.. |IMG5| image:: static/Python_原始碼風格_5.png
+.. |IMG5| image:: static/空行讓Python更簡潔_5.png
    :height: 664 px
    :width: 608 px
 
-.. |IMG6| image:: static/Python_原始碼風格_6.png
+.. |IMG6| image:: static/空行讓Python更簡潔_6.png
    :height: 452 px
    :width: 608 px
 
-.. |IMG7| image:: static/Python_原始碼風格_7.png
+.. |IMG7| image:: static/空行讓Python更簡潔_7.png
    :height: 572 px
    :width: 648 px
 
-.. |IMG8| image:: static/Python_原始碼風格_8.png
+.. |IMG8| image:: static/空行讓Python更簡潔_8.png
    :height: 202 px
    :width: 554 px
 
-.. |IMG9| image:: static/Python_原始碼風格_9.png
+.. |IMG9| image:: static/空行讓Python更簡潔_9.png
    :height: 350 px
    :width: 616 px
 
-.. |IMG10| image:: static/Python_原始碼風格_10.png
+.. |IMG10| image:: static/空行讓Python更簡潔_10.png
    :height: 662 px
    :width: 606 px
