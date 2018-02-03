@@ -201,6 +201,11 @@ Twisted使用\ |LINK6|\ 為文件的markup語法 \ |LINK7|\ 。Epytext是早期�
     
     <div class="fb-comments" data-href="https://iapyeh.readthedocs.io/en/latest/blogs/technical/docs_style_review_twisted.html" data-numposts="10" data-width="100%"></div>
     
+    <style>
+    p, li {
+    line-height: 30px
+    }
+    </style>
 
 .. |LINK1| raw:: html
 
