@@ -110,9 +110,13 @@
 
 \ |IMG9|\ 
 
-* #170在第一與第二參數間的逗點後面有一個空格，但是在#144前三個參數之間並沒有空格，如果回溯上面的程式碼會發現，有空格是常態，#144的情況比較特別，推測是為了把那三個參數放在同一行的緣故。
+    * 當 import 很長的時候，可以用import tuple的方式來換行（\ |LINK5|\  #36）
 
 \ |IMG10|\ 
+
+* #170在第一與第二參數間的逗點後面有一個空格，但是在#144前三個參數之間並沒有空格，如果回溯上面的程式碼會發現，有空格是常態，#144的情況比較特別，推測是為了把那三個參數放在同一行的緣故。
+
+\ |IMG11|\ 
 
 * #177-#193重點大置在前面已經出現過，值得觀察的是#186, #187, #190, #191, #192這幾行後面的註解。#186, #187, #190這三行有對齊，#191沒有對齊因為那一行剩下的空間不多，#192理論上應該要與上面四行對齊但是並沒有。我想這裡單純是一時手誤而已，但也意味著這些對齊的註解可能是作者手動製作的，而不是IDE完成的。
 
@@ -142,7 +146,7 @@
 
 * 包含在三引號(""")中的docstring是物件(class, method, attribute等) 的意義性說明。
 
-* 而comment是用來做程式碼的說明，應用於單一行程式碼或多行程式碼的程式區塊。甚至像是設定性質的script完全只有comment，例如\ |LINK5|\ 。
+* 而comment是用來做程式碼的說明，應用於單一行程式碼或多行程式碼的程式區塊。甚至像是設定性質的script完全只有comment，例如\ |LINK6|\ 。
 
 .. _h1634483c7822441972316c7301545:
 
@@ -151,7 +155,7 @@
 
 讓版面簡潔易讀是透過縮排與空行共同達成的。版面是二維空間，縮排是X軸，空行是Y軸。所有的程式語言都能利用Y軸空行來排版，但只有Python對X軸縮排作嚴格要求，所以說縮排是Python的特色。Python讓XY兩軸都兼顧，而使得版面更簡潔，這是縮排意義的精髓。
 
-\ |IMG11|\ 
+\ |IMG12|\ 
 
 .. _h1634483c7822441972316c7301545:
 
@@ -160,7 +164,7 @@
 
 對於因AI而開始寫Python的人，Panda, Jupiter是重要的套件。而在「前AI時期」引導很多人進入Python領域的則是Twisted與Zope，Twisted是Python老牌的async套件，很多人用來寫爬蟲的 Python3 asyncio，構想也是源自於Twisted\ [#F2]_\ 。Twisted目前仍是Python重要的套件用途廣泛，尤其是Networking的相關應用。
 
-Twisted使用\ |LINK6|\ 為文件的markup語法 \ |LINK7|\ 。Epytext是早期從java借來的，屬於比較"古早"的格式，跟目前流行的\ |LINK8|\ \ [#F3]_\ 比起來，屬於輕量(light-weight)級的markup語法，\ |LINK9|\ )。而相當多的Epytext語法也被保留在reStructuredText當中
+Twisted使用\ |LINK7|\ 為文件的markup語法 \ |LINK8|\ 。Epytext是早期從java借來的，屬於比較"古早"的格式，跟目前流行的\ |LINK9|\ \ [#F3]_\ 比起來，屬於輕量(light-weight)級的markup語法，\ |LINK10|\ )。而相當多的Epytext語法也被保留在reStructuredText當中
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -169,7 +173,7 @@ Twisted使用\ |LINK6|\ 為文件的markup語法 \ |LINK7|\ 。Epytext是早期�
 
 * 2018 年 02 月 03 增加範例。
 
-* 2018 年 01月 28 初版，使用\ |LINK11|\ 從Google Docs轉成reStructuredText後發佈。
+* 2018 年 01月 28 初版，使用\ |LINK12|\ 從Google Docs轉成reStructuredText後發佈。
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -225,29 +229,33 @@ Twisted使用\ |LINK6|\ 為文件的markup語法 \ |LINK7|\ 。Epytext是早期�
 
 .. |LINK5| raw:: html
 
-    <a href="https://github.com/twisted/twisted/blob/trunk/docs/conf.py" target="_blank">conf.py</a>
+    <a href="https://github.com/pyfarm/pyfarm-agent/blob/master/pyfarm/agent/manhole.py" target="_blank">出處</a>
 
 .. |LINK6| raw:: html
 
-    <a href="http://epydoc.sourceforge.net/manual-epytext.html" target="_blank">Epytext</a>
+    <a href="https://github.com/twisted/twisted/blob/trunk/docs/conf.py" target="_blank">conf.py</a>
 
 .. |LINK7| raw:: html
 
-    <a href="http://epydoc.sourceforge.net/" target="_blank">Epydoc</a>
+    <a href="http://epydoc.sourceforge.net/manual-epytext.html" target="_blank">Epytext</a>
 
 .. |LINK8| raw:: html
 
-    <a href="https://www.python.org/dev/peps/pep-0287/" target="_blank">reStructuredText</a>
+    <a href="http://epydoc.sourceforge.net/" target="_blank">Epydoc</a>
 
 .. |LINK9| raw:: html
 
-    <a href="http://daouzli.com/blog/docstring.html" target="_blank">進一步閱讀</a>
+    <a href="https://www.python.org/dev/peps/pep-0287/" target="_blank">reStructuredText</a>
 
 .. |LINK10| raw:: html
 
-    <a href="https://github.com/twisted/pydoctor/" target="_blank">pydoctor</a>
+    <a href="http://daouzli.com/blog/docstring.html" target="_blank">進一步閱讀</a>
 
 .. |LINK11| raw:: html
+
+    <a href="https://github.com/twisted/pydoctor/" target="_blank">pydoctor</a>
+
+.. |LINK12| raw:: html
 
     <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">GGEditor</a>
 
@@ -297,9 +305,13 @@ Twisted使用\ |LINK6|\ 為文件的markup語法 \ |LINK7|\ 。Epytext是早期�
    :width: 596 px
 
 .. |IMG10| image:: static/空行讓Python更簡潔_10.png
+   :height: 152 px
+   :width: 566 px
+
+.. |IMG11| image:: static/空行讓Python更簡潔_11.png
    :height: 350 px
    :width: 616 px
 
-.. |IMG11| image:: static/空行讓Python更簡潔_11.png
+.. |IMG12| image:: static/空行讓Python更簡潔_12.png
    :height: 668 px
    :width: 568 px
