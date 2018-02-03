@@ -288,8 +288,8 @@ Twisted使用\ |LINK6|\ 為文件的markup語法 \ |LINK7|\ 。Epytext是早期�
    :width: 554 px
 
 .. |IMG9| image:: static/空行讓Python更簡潔_9.png
-   :height: 144 px
-   :width: 581 px
+   :height: 218 px
+   :width: 596 px
 
 .. |IMG10| image:: static/空行讓Python更簡潔_10.png
    :height: 350 px
