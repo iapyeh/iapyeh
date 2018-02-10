@@ -131,7 +131,7 @@
 
 * 大部分的運算符號(operator)的前後都有格，例如 =（指定）, +（加）, \* （乘） ,  %（字串替換）
 
-* \- （減）的前後反而是沒有空格比較多。
+* \- （減）的前後反而是沒有空格比較多。但這可能是作者的個人習慣，\ |LINK6|\ 是希望在運算子前後加空格。
 
 * = （等於）出現在函數呼叫的參數(keyword argument)中時，前後不放空格。
 
@@ -146,7 +146,7 @@
 
 * 包含在三引號(""")中的docstring是物件(class, method, attribute等) 的意義性說明。
 
-* 而comment是用來做程式碼的說明，應用於單一行程式碼或多行程式碼的程式區塊。甚至像是設定性質的script完全只有comment，例如\ |LINK6|\ 。
+* 而comment是用來做程式碼的說明，應用於單一行程式碼或多行程式碼的程式區塊。甚至像是設定性質的script完全只有comment，例如\ |LINK7|\ 。
 
 .. _h1634483c7822441972316c7301545:
 
@@ -164,7 +164,7 @@
 
 對於因AI而開始寫Python的人，Panda, Jupiter是重要的套件。而在「前AI時期」引導很多人進入Python領域的則是Twisted與Zope，Twisted是Python老牌的async套件，很多人用來寫爬蟲的 Python3 asyncio，構想也是源自於Twisted\ [#F2]_\ 。Twisted目前仍是Python重要的套件用途廣泛，尤其是Networking的相關應用。
 
-Twisted使用\ |LINK7|\ 為文件的markup語法 \ |LINK8|\ 。Epytext是早期從java借來的，屬於比較"古早"的格式，跟目前流行的\ |LINK9|\ \ [#F3]_\ 比起來，屬於輕量(light-weight)級的markup語法，\ |LINK10|\ )。而相當多的Epytext語法也被保留在reStructuredText當中
+Twisted使用\ |LINK8|\ 為文件的markup語法 \ |LINK9|\ 。Epytext是早期從java借來的，屬於比較"古早"的格式，跟目前流行的\ |LINK10|\ \ [#F3]_\ 比起來，屬於輕量(light-weight)級的markup語法，\ |LINK11|\ )。而相當多的Epytext語法也被保留在reStructuredText當中
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -173,7 +173,7 @@ Twisted使用\ |LINK7|\ 為文件的markup語法 \ |LINK8|\ 。Epytext是早期�
 
 * 2018 年 02 月 03 增加範例。
 
-* 2018 年 01月 28 初版，使用\ |LINK12|\ 從Google Docs轉成reStructuredText後發佈。
+* 2018 年 01月 28 初版，使用\ |LINK13|\ 從Google Docs轉成reStructuredText後發佈。
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -233,29 +233,33 @@ Twisted使用\ |LINK7|\ 為文件的markup語法 \ |LINK8|\ 。Epytext是早期�
 
 .. |LINK6| raw:: html
 
-    <a href="https://github.com/twisted/twisted/blob/trunk/docs/conf.py" target="_blank">conf.py</a>
+    <a href="http://wiki.jiayun.org/PEP_8_--_Style_Guide_for_Python_Code" target="_blank">規範</a>
 
 .. |LINK7| raw:: html
 
-    <a href="http://epydoc.sourceforge.net/manual-epytext.html" target="_blank">Epytext</a>
+    <a href="https://github.com/twisted/twisted/blob/trunk/docs/conf.py" target="_blank">conf.py</a>
 
 .. |LINK8| raw:: html
 
-    <a href="http://epydoc.sourceforge.net/" target="_blank">Epydoc</a>
+    <a href="http://epydoc.sourceforge.net/manual-epytext.html" target="_blank">Epytext</a>
 
 .. |LINK9| raw:: html
 
-    <a href="https://www.python.org/dev/peps/pep-0287/" target="_blank">reStructuredText</a>
+    <a href="http://epydoc.sourceforge.net/" target="_blank">Epydoc</a>
 
 .. |LINK10| raw:: html
 
-    <a href="http://daouzli.com/blog/docstring.html" target="_blank">進一步閱讀</a>
+    <a href="https://www.python.org/dev/peps/pep-0287/" target="_blank">reStructuredText</a>
 
 .. |LINK11| raw:: html
 
-    <a href="https://github.com/twisted/pydoctor/" target="_blank">pydoctor</a>
+    <a href="http://daouzli.com/blog/docstring.html" target="_blank">進一步閱讀</a>
 
 .. |LINK12| raw:: html
+
+    <a href="https://github.com/twisted/pydoctor/" target="_blank">pydoctor</a>
+
+.. |LINK13| raw:: html
 
     <a href="http://ggeditor.readthedocs.io/en/latest/" target="_blank">GGEditor</a>
 
