@@ -171,7 +171,7 @@ Twisted使用\ |LINK8|\ 為文件的markup語法 \ |LINK9|\ 。Epytext是早期�
 版本沿革
 ========
 
-* 2018 年 02 月 03 增加範例。
+* 2018 年 02 月 3 增加範例。
 
 * 2018 年 01月 28 初版，使用\ |LINK13|\ 從Google Docs轉成reStructuredText後發佈。
 
