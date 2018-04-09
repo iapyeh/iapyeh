@@ -4,7 +4,7 @@
 Install PyTorch in MacOS 10.13.3
 ################################
 
-PyTorch的官方網站推薦使用conda安裝，如果你的Python已經是 conda的版本，根據官網的建議即可。但如果不是，可以依照本文內容的方式安裝。
+PyTorch的官方網站推薦使用conda安裝，如果你的Python已經是 conda的版本，根據\ |LINK1|\ 即可。但如果不是，可以依照本文內容的方式安裝。
 
 .. _h572187820253c7294643631303029:
 
@@ -49,7 +49,7 @@ PyTorch的官方網站推薦使用conda安裝，如果你的Python已經是 cond
 下載PyTorch的原始碼
 ===================
 
-開啟一個終端機後，執行指令：(\ |LINK1|\ ）
+開啟一個終端機後，執行指令：(\ |LINK2|\ ）
 
 .. code:: 
 
@@ -61,7 +61,7 @@ PyTorch的官方網站推薦使用conda安裝，如果你的Python已經是 cond
 安裝CMake App
 =============
 
-#. 到\ |LINK2|\ 下載 Mac OS X 10.7 or later的版本 （目前是 \ |LINK3|\ )
+#. 到\ |LINK3|\ 下載 Mac OS X 10.7 or later的版本 （目前是 \ |LINK4|\ )
 
 #. 執行下載後的dmb，會有以下的畫面
 
@@ -74,7 +74,7 @@ PyTorch的官方網站推薦使用conda安裝，如果你的Python已經是 cond
 用 CMake App 安裝 cmake
 =======================
 
-指令：（\ |LINK4|\ ）
+指令：（\ |LINK5|\ ）
 
 .. code:: 
 
@@ -122,17 +122,21 @@ PyTorch的官方網站推薦使用conda安裝，如果你的Python已經是 cond
 
 .. |LINK1| raw:: html
 
-    <a href="https://github.com/pytorch/pytorch" target="_blank">參考來源</a>
+    <a href="http://pytorch.org/" target="_blank">官網的建議</a>
 
 .. |LINK2| raw:: html
 
-    <a href="https://cmake.org/download/" target="_blank">官網</a>
+    <a href="https://github.com/pytorch/pytorch" target="_blank">參考來源</a>
 
 .. |LINK3| raw:: html
 
-    <a href="https://cmake.org/files/v3.11/cmake-3.11.0-Darwin-x86_64.dmg" target="_blank">cmake-3.11.0-Darwin-x86_64.dmg</a>
+    <a href="https://cmake.org/download/" target="_blank">官網</a>
 
 .. |LINK4| raw:: html
+
+    <a href="https://cmake.org/files/v3.11/cmake-3.11.0-Darwin-x86_64.dmg" target="_blank">cmake-3.11.0-Darwin-x86_64.dmg</a>
+
+.. |LINK5| raw:: html
 
     <a href="https://blog.csdn.net/baiyu9821179/article/details/54632135" target="_blank">參考來源</a>
 
