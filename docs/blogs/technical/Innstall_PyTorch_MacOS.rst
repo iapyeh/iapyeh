@@ -1,8 +1,10 @@
 
-.. _h787543585935b20556918533834567:
+.. _h51c204e94f6b561c64555c2e7b4d3c:
 
-PyTorch in MacOS 10.13.3
-########################
+Install PyTorch in MacOS 10.13.3
+################################
+
+PyTorch的官方網站推薦使用conda安裝，如果你的Python已經是 conda的版本，根據官網的建議即可。但如果不是，可以依照本文內容的方式安裝。
 
 .. _h572187820253c7294643631303029:
 
@@ -11,9 +13,21 @@ PyTorch in MacOS 10.13.3
 
 #. 在 MacOS 10.13.3 High Sierra 
 
-#. 不使用 conda
+#. 不使用 conda 安裝
 
 #. Python3
+
+測試Python是否為conda的版本的方式：（開一個終端機）
+
+.. code:: 
+
+    $ which python
+    
+    # 以下這種回應表示你的python是conda的版本（關鍵字：anaconda）
+    /anaconda2/bin/python
+    
+    # 以下這種回應表示你的python不是conda的版本
+    /usr/local/bin/python
 
 .. _hd1b83d48586e1b393a624e28544946:
 
@@ -35,7 +49,7 @@ PyTorch in MacOS 10.13.3
 下載PyTorch的原始碼
 ===================
 
-指令：(\ |LINK1|\ ）
+開啟一個終端機後，執行指令：(\ |LINK1|\ ）
 
 .. code:: 
 
