@@ -86,6 +86,11 @@ Translation
 * \ |LINK19|\  (2016/04/24)
 
 
+.. admonition:: Change-me
+
+    (content of Change-me)
+
+
 .. bottom of content
 
 
