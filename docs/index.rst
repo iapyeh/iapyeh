@@ -86,31 +86,8 @@ Translation
 * \ |LINK19|\  (2016/04/24)
 
 
-|REPLACE1|
-
-
-|REPLACE2|
-
-
 .. bottom of content
 
-
-.. |REPLACE1| raw:: html
-
-    <table cellspacing="0" cellpadding="0" style="width:100%">
-    <thead>
-    <tr><th style="background-color:#ff0000;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 1px #999999"><p style="font-size:24px"><span  style="font-size:24px"> This is red rowtitle</span></p></th></tr>
-    </thead><tbody>
-    <tr><td style="vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 1px #999999"><p>This is the content</p></td></tr>
-    </tbody></table>
-
-.. |REPLACE2| raw:: html
-
-    <style>
-    table p{
-     margin-bottom:0px;
-    }
-    </style>
 
 .. |LINK1| raw:: html
 
