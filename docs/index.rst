@@ -96,9 +96,9 @@ Translation
 
     <table cellspacing="0" cellpadding="0" style="width:100%">
     <thead>
-    <tr><th style="background-color:#ff0000;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 1px #000000"><p style="font-size:24px"><span  style="font-size:24px"> This is a red rowtitle</span></p></th></tr>
+    <tr><th style="background-color:#ff0000;vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><p style="font-size:24px"><span  style="font-size:24px"> This is red rowtitle</span></p></th></tr>
     </thead><tbody>
-    <tr><td style="vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;border:solid 1px #000000"><p>This is the content</p></td></tr>
+    <tr><td style="vertical-align:Top;padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px"><p>This is the content</p></td></tr>
     </tbody></table>
 
 
