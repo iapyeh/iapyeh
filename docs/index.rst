@@ -64,26 +64,28 @@ Technical
 Essay
 -----
 
-* \ |LINK12|\  (2017/02/12)
+* \ |LINK12|\  (2019/6/11)
 
-* \ |LINK13|\  (2015/12/12)
+* \ |LINK13|\  (2017/02/12)
 
-* \ |LINK14|\  (2015/11/22)
+* \ |LINK14|\  (2015/12/12)
 
-* \ |LINK15|\  (2011/04/09)
+* \ |LINK15|\  (2015/11/22)
 
-* \ |LINK16|\  (2011/02/02)
+* \ |LINK16|\  (2011/04/09)
 
-* \ |LINK17|\  (2010/12/25)
+* \ |LINK17|\  (2011/02/02)
 
-* \ |LINK18|\  (2010/12/04)
+* \ |LINK18|\  (2010/12/25)
+
+* \ |LINK19|\  (2010/12/04)
 
 .. _h6d307874835717394e3f1a464967c:
 
 Translation
 -----------
 
-* \ |LINK19|\  (2016/04/24)
+* \ |LINK20|\  (2016/04/24)
 
 
 .. bottom of content
@@ -135,33 +137,37 @@ Translation
 
 .. |LINK12| raw:: html
 
-    <a href="blogs/MontyHallProblem.html">蒙提霍爾問題</a>
+    <a href="https://iapyeh.readthedocs.io/en/latest/blogs/essay/%E6%97%A5%E8%AA%9E%E5%AD%B8%E7%BF%92%E7%9B%B8%E9%97%9C%E9%80%A3%E7%B5%90.html" target="_blank">日語學習相關連結</a>
 
 .. |LINK13| raw:: html
 
-    <a href="blogs/LetsEncrypt.html">Let’s Encrypt 是社會運動</a>
+    <a href="blogs/MontyHallProblem.html">蒙提霍爾問題</a>
 
 .. |LINK14| raw:: html
 
-    <a href="blogs/essay/constructiveProgramming.html">寫程式是建構式的</a>
+    <a href="blogs/LetsEncrypt.html">Let’s Encrypt 是社會運動</a>
 
 .. |LINK15| raw:: html
 
-    <a href="blogs/essay/brainyoga.html">軟體工程師的大腦瑜珈</a>
+    <a href="blogs/essay/constructiveProgramming.html">寫程式是建構式的</a>
 
 .. |LINK16| raw:: html
 
-    <a href="blogs/essay/believescience.html">最不科學的事情就是相信科學</a>
+    <a href="blogs/essay/brainyoga.html">軟體工程師的大腦瑜珈</a>
 
 .. |LINK17| raw:: html
 
-    <a href="blogs/essay/hasghost.html">真的有鬼</a>
+    <a href="blogs/essay/believescience.html">最不科學的事情就是相信科學</a>
 
 .. |LINK18| raw:: html
 
-    <a href="blogs/essay/switch2mac.html">改用Mac 二三事</a>
+    <a href="blogs/essay/hasghost.html">真的有鬼</a>
 
 .. |LINK19| raw:: html
+
+    <a href="blogs/essay/switch2mac.html">改用Mac 二三事</a>
+
+.. |LINK20| raw:: html
 
     <a href="blogs/translation/AProtocol4Dying.html">臨終協定(A Protocol for Dying by Pieter Hintjens)</a>
 
