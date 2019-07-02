@@ -146,9 +146,9 @@
    :height: 52 px
    :width: 45 px
 
-.. |IMG2| image:: static/日語學習相關連結_2.png
-   :height: 584 px
-   :width: 697 px
+.. |IMG2| image:: static/日語學習相關連結_2.jpeg
+   :height: 504 px
+   :width: 600 px
 
 .. |IMG3| image:: static/日語學習相關連結_3.png
    :height: 436 px
