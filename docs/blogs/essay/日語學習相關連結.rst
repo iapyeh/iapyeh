@@ -29,9 +29,9 @@
 
     必須使用筆電或者桌機的Chrome開啟連結，才能啟動外掛。反覆一直看新聞、聽種播讀稿，利用Furikanji及Google翻譯外掛，把新聞內容讀懂（盡可能，不必全懂，專注在懂的部分；所謂懂是指能在內心產生畫面的部分，不是懂中文翻譯）
 
-* \ |LINK5|\  （也可以從Furiknaji的小圖\ |IMG1|\  或 
+* \ |LINK5|\  （也可以從Furiknaji的小圖\ |IMG1|\   開啟 ，在Chrome右上角）
 
-\ |IMG3|\ 
+\ |IMG2|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -43,7 +43,7 @@
 
     重點：讓大腦反覆進行「聲音連結意義」的刺激
 
-\ |IMG4|\ 
+\ |IMG3|\ 
 
 .. _h174fb648377959437b5c1f697c1c40:
 
@@ -76,7 +76,7 @@
 
 .. admonition:: 語言傳達過程的圖解；走正路，不要走偏路
 
-    \ |IMG5|\ 
+    \ |IMG4|\ 
 
 
 .. admonition:: 日語學習重點
@@ -149,17 +149,13 @@
    :width: 38 px
 
 .. |IMG2| image:: static/日語學習相關連結_2.png
-   :height: 40 px
-   :width: 34 px
-
-.. |IMG3| image:: static/日語學習相關連結_3.png
    :height: 222 px
    :width: 202 px
 
-.. |IMG4| image:: static/日語學習相關連結_4.png
+.. |IMG3| image:: static/日語學習相關連結_3.png
    :height: 586 px
    :width: 697 px
 
-.. |IMG5| image:: static/日語學習相關連結_5.png
+.. |IMG4| image:: static/日語學習相關連結_4.png
    :height: 436 px
    :width: 682 px
